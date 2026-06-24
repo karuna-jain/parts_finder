@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 # Load local environment variables (like GEMINI_API_KEY)
 load_dotenv()
 
-from backend_python.rag_engine import rag_engine
+from backend.rag_engine import rag_engine
 
 def main():
     print("Starting pre-extraction utility to index PDF manual and cache embeddings...")
