@@ -131,17 +131,14 @@ class RAGEngine:
         return results[:top_k]
 
     def answer_question(self, query: str, db_context: str = "") -> str:
-        """Retrieves context and asks Gemini to generate an answer."""
-        if not self.api_available:
-            return ("The AI Assistant is currently in Offline Mode. Please configure a valid "
-                    "`GEMINI_API_KEY` in the backend environment variables to enable the RAG Chat Engine.")
-
+        """Retrieves context and generates a structured answer (using Gemini or Local fallback)."""
         # 1. Retrieve context from PDF
-        retrieved = self.retrieve(query, top_k=3)
-        pdf_context = "\n\n".join([item[1] for item in retrieved])
+        retrieved = self.retrieve(query, top_k=2)
 
-        # 2. Build the LLM prompt
-        prompt = f"""You are the Motorcycle Parts Intelligence Assistant. You help parts dealers and mechanics locate parts, check compatibility, and find details using the provided context.
+        # If Gemini API Key is available, use it for conversational RAG
+        if self.api_available:
+            pdf_context = "\n\n".join([item[1] for item in retrieved])
+            prompt = f"""You are the Motorcycle Parts Intelligence Assistant. You help parts dealers and mechanics locate parts, check compatibility, and find details using the provided context.
 
 Context from the PDF Parts Catalog Manual:
 {pdf_context}
@@ -157,13 +154,50 @@ Instructions:
 3. If the answer cannot be found in the context, use your general knowledge of Indian motorcycles but mention that it is based on general knowledge rather than the catalog manual.
 4. Keep your answer professional, clear, and structured (using lists or bold text where appropriate).
 """
-        
-        try:
-            model = genai.GenerativeModel("gemini-1.5-flash")
-            response = model.generate_content(prompt)
-            return response.text
-        except Exception as e:
-            return f"Error generating response from Gemini API: {str(e)}"
+            try:
+                model = genai.GenerativeModel("gemini-1.5-flash")
+                response = model.generate_content(prompt)
+                return response.text
+            except Exception as e:
+                print(f"Gemini API call failed: {e}. Falling back to local search engine...")
+
+        # 2. Local Search Engine Fallback (Requires ZERO API Keys, runs 100% offline!)
+        lines = []
+        lines.append("🔍 **Local Parts Catalog & Manual Search** (Offline Mode)")
+        lines.append("")
+
+        if db_context and "No matching parts" not in db_context:
+            lines.append("### 📦 Structured Inventory Matches:")
+            lines.append(db_context)
+            lines.append("")
+
+        if retrieved:
+            lines.append("### 📄 Catalog PDF Page Matches:")
+            for idx, text, score in retrieved:
+                first_line = text.split("\n", 1)[0]
+                page_name = first_line.replace("--- ", "").replace(" ---", "")
+                lines.append(f"**From {page_name}**:")
+                
+                # Find matching lines/snippets for search keywords
+                query_words = [w for w in query.lower().split() if len(w) > 2]
+                matched_snippets = []
+                for line in text.split("\n")[1:]:
+                    line_lower = line.lower()
+                    if any(w in line_lower for w in query_words):
+                        matched_snippets.append(f"  • ... {line.strip()} ...")
+                        if len(matched_snippets) >= 3:
+                            break
+                
+                if matched_snippets:
+                    lines.extend(matched_snippets)
+                else:
+                    # Fallback: display first 3 lines of page
+                    lines.extend([f"  • {l.strip()}" for l in text.split("\n")[1:4] if l.strip()])
+                lines.append("")
+        else:
+            lines.append("No matching text references located in the PDF manual.")
+
+        return "\n".join(lines)
 
 # Singleton RAG Engine Instance
 rag_engine = RAGEngine()
