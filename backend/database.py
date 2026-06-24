@@ -19,13 +19,27 @@ else:
     if database_url.startswith("jdbc:postgresql://"):
         database_url = database_url.replace("jdbc:postgresql://", "postgresql://")
 
-# Configure SQLAlchemy connection engine
-engine = create_engine(database_url, pool_pre_ping=True)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+# Try configuring SQLAlchemy connection engine
+db_available = False
+engine = None
+SessionLocal = None
+
+try:
+    engine = create_engine(database_url, pool_pre_ping=True)
+    # Test connection
+    with engine.connect() as conn:
+        db_available = True
+    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+    print("PostgreSQL Database connected successfully.")
+except Exception as e:
+    print(f"Warning: PostgreSQL Database not available ({e}). Running in In-Memory fallback mode.")
 
 Base = declarative_base()
 
 def get_db():
+    if not db_available or SessionLocal is None:
+        yield None
+        return
     db = SessionLocal()
     try:
         yield db
