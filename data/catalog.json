@@ -1,0 +1,4822 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Hero MotoCorp"
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "brand_id": 1,
+      "name": "Splendor Plus",
+      "cc": 100,
+      "year": 2022
+    },
+    {
+      "id": 2,
+      "brand_id": 1,
+      "name": "Passion Pro",
+      "cc": 110,
+      "year": 2021
+    },
+    {
+      "id": 3,
+      "brand_id": 1,
+      "name": "Glamour SV",
+      "cc": 125,
+      "year": 2023
+    },
+    {
+      "id": 4,
+      "brand_id": 1,
+      "name": "XPulse 200 4V",
+      "cc": 200,
+      "year": 2023
+    },
+    {
+      "id": 5,
+      "brand_id": 1,
+      "name": "Karizma XMR",
+      "cc": 210,
+      "year": 2024
+    }
+  ],
+  "systems": [
+    {
+      "id": 1,
+      "name": "Engine",
+      "description": "Engine system and components"
+    },
+    {
+      "id": 2,
+      "name": "Fuel System",
+      "description": "Fuel System system and components"
+    },
+    {
+      "id": 3,
+      "name": "Electrical",
+      "description": "Electrical system and components"
+    },
+    {
+      "id": 4,
+      "name": "Transmission",
+      "description": "Transmission system and components"
+    },
+    {
+      "id": 5,
+      "name": "Braking",
+      "description": "Braking system and components"
+    },
+    {
+      "id": 6,
+      "name": "Suspension",
+      "description": "Suspension system and components"
+    },
+    {
+      "id": 7,
+      "name": "Wheels & Tyres",
+      "description": "Wheels & Tyres system and components"
+    },
+    {
+      "id": 8,
+      "name": "Body Parts",
+      "description": "Body Parts system and components"
+    },
+    {
+      "id": 9,
+      "name": "Chassis",
+      "description": "Chassis system and components"
+    },
+    {
+      "id": 10,
+      "name": "Exhaust",
+      "description": "Exhaust system and components"
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "part_number": "20K1010S",
+      "name": "CHAIN SPROCKET KIT",
+      "normalized_name": "Chain Sprocket Kit",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 970.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Chain Sprocket Kit genuine part."
+    },
+    {
+      "id": 2,
+      "part_number": "20K1110S",
+      "name": "CHAIN SPROCKET KIT (HF DWN / HF DLX)",
+      "normalized_name": "Chain Sprocket Kit (hf Dwn / Hf Dlx)",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 770.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Chain Sprocket Kit (hf Dwn / Hf Dlx) genuine part."
+    },
+    {
+      "id": 3,
+      "part_number": "20K1120S",
+      "name": "CHAIN SPROCKET KIT (HF-DAWN NEW)",
+      "normalized_name": "Chain Sprocket Kit (hf-dawn New)",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 770.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Chain Sprocket Kit (hf-dawn New) genuine part."
+    },
+    {
+      "id": 4,
+      "part_number": "20K710S",
+      "name": "CHAIN SPROCKET KIT (SUP. SPLENDOR)",
+      "normalized_name": "Chain Sprocket Kit (sup. Splendor)",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 650.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Chain Sprocket Kit (sup. Splendor) genuine part."
+    },
+    {
+      "id": 5,
+      "part_number": "20K810S",
+      "name": "CHAIN SPROCKET KIT-",
+      "normalized_name": "Chain Sprocket Kit-",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 675.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Chain Sprocket Kit- genuine part."
+    },
+    {
+      "id": 6,
+      "part_number": "20K910S",
+      "name": "CHAIN SPROCKET KIT (ACHIEVER)",
+      "normalized_name": "Chain Sprocket Kit (achiever)",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 770.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Chain Sprocket Kit (achiever) genuine part."
+    },
+    {
+      "id": 7,
+      "part_number": "40530-KTN-700",
+      "name": "CHAIN, DRIVE, 428H -",
+      "normalized_name": "Chain, Drive, 428h -",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 1.0,
+      "quantity": 120,
+      "is_kit": false,
+      "description": "Extracted Chain, Drive, 428h - genuine part."
+    },
+    {
+      "id": 8,
+      "part_number": "21K180S",
+      "name": "CYLINDER STD KIT",
+      "normalized_name": "Cylinder Std Kit",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 3350.0,
+      "quantity": 6,
+      "is_kit": true,
+      "description": "Extracted Cylinder Std Kit genuine part."
+    },
+    {
+      "id": 9,
+      "part_number": "21K200S",
+      "name": "CYLINDER KIT (GLAMOUR)",
+      "normalized_name": "Cylinder Kit (glamour)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 2950.0,
+      "quantity": 6,
+      "is_kit": true,
+      "description": "Extracted Cylinder Kit (glamour) genuine part."
+    },
+    {
+      "id": 10,
+      "part_number": "21K220S",
+      "name": "CYLINDER KIT (PASSION PRO)",
+      "normalized_name": "Cylinder Kit (passion Pro)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 2670.0,
+      "quantity": 6,
+      "is_kit": true,
+      "description": "Extracted Cylinder Kit (passion Pro) genuine part."
+    },
+    {
+      "id": 11,
+      "part_number": "21K260S",
+      "name": "CYLINDER KIT (ACHIEVER NEW)",
+      "normalized_name": "Cylinder Kit (achiever New)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 3350.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Cylinder Kit (achiever New) genuine part."
+    },
+    {
+      "id": 12,
+      "part_number": "21K280S",
+      "name": "CYLINDER KIT (HUNK NEW)",
+      "normalized_name": "Cylinder Kit (hunk New)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 3350.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Cylinder Kit (hunk New) genuine part."
+    },
+    {
+      "id": 13,
+      "part_number": "22K130LS",
+      "name": "CAM.CHAIN KIT",
+      "normalized_name": "Cam.chain Kit",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 425.0,
+      "quantity": 50,
+      "is_kit": true,
+      "description": "Extracted Cam.chain Kit genuine part."
+    },
+    {
+      "id": 14,
+      "part_number": "22K150S",
+      "name": "CAM CHAIN KIT (SUPER SPLENDOR)",
+      "normalized_name": "Cam Chain Kit (super Splendor)",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 650.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Cam Chain Kit (super Splendor) genuine part."
+    },
+    {
+      "id": 15,
+      "part_number": "22K170S",
+      "name": "CAM.CHAIN KIT",
+      "normalized_name": "Cam.chain Kit",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 750.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Cam.chain Kit genuine part."
+    },
+    {
+      "id": 16,
+      "part_number": "22K190S",
+      "name": "CAM CHAIN KIT (KARIZMA ZMR)",
+      "normalized_name": "Cam Chain Kit (karizma Zmr)",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 1250.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Cam Chain Kit (karizma Zmr) genuine part."
+    },
+    {
+      "id": 17,
+      "part_number": "23K240LS",
+      "name": "CON ROD KIT (SPLENDOR)",
+      "normalized_name": "Con Rod Kit (splendor)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 610.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Con Rod Kit (splendor) genuine part."
+    },
+    {
+      "id": 18,
+      "part_number": "24K150LS",
+      "name": "VALVE KIT",
+      "normalized_name": "Valve Kit",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.9,
+      "mrp": 370.0,
+      "quantity": 100,
+      "is_kit": true,
+      "description": "Extracted Valve Kit genuine part."
+    },
+    {
+      "id": 19,
+      "part_number": "24K160S",
+      "name": "VALVE KIT (SUPER SPLENDOR)",
+      "normalized_name": "Valve Kit (super Splendor)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.9,
+      "mrp": 375.0,
+      "quantity": 50,
+      "is_kit": true,
+      "description": "Extracted Valve Kit (super Splendor) genuine part."
+    },
+    {
+      "id": 20,
+      "part_number": "24K170S",
+      "name": "VALVE KIT",
+      "normalized_name": "Valve Kit",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.9,
+      "mrp": 455.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Valve Kit genuine part."
+    },
+    {
+      "id": 21,
+      "part_number": "24K180S",
+      "name": "VALVE KIT (KARIZMA)",
+      "normalized_name": "Valve Kit (karizma)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.9,
+      "mrp": 600.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Valve Kit (karizma) genuine part."
+    },
+    {
+      "id": 22,
+      "part_number": "24K190S",
+      "name": "VALVE KIT (PLEASURE)",
+      "normalized_name": "Valve Kit (pleasure)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.9,
+      "mrp": 475.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Valve Kit (pleasure) genuine part."
+    },
+    {
+      "id": 23,
+      "part_number": "24K200S",
+      "name": "VALVE KIT (ACHIEVER NEW)",
+      "normalized_name": "Valve Kit (achiever New)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.9,
+      "mrp": 440.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Valve Kit (achiever New) genuine part."
+    },
+    {
+      "id": 24,
+      "part_number": "25K160S",
+      "name": "BALL RACES KIT",
+      "normalized_name": "Ball Races Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 290.0,
+      "quantity": 50,
+      "is_kit": true,
+      "description": "Extracted Ball Races Kit genuine part."
+    },
+    {
+      "id": 25,
+      "part_number": "25K170S",
+      "name": "BALL RACES KIT (ACHR/GLMR)",
+      "normalized_name": "Ball Races Kit (achr/glmr)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 380.0,
+      "quantity": 50,
+      "is_kit": true,
+      "description": "Extracted Ball Races Kit (achr/glmr) genuine part."
+    },
+    {
+      "id": 26,
+      "part_number": "25K180S",
+      "name": "BALL RACE KIT (PLEASURE)",
+      "normalized_name": "Ball Race Kit (pleasure)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 380.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Ball Race Kit (pleasure) genuine part."
+    },
+    {
+      "id": 27,
+      "part_number": "26K170LS",
+      "name": "OIL SEAL KIT",
+      "normalized_name": "Oil Seal Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 96.0,
+      "quantity": 100,
+      "is_kit": true,
+      "description": "Extracted Oil Seal Kit genuine part."
+    },
+    {
+      "id": 28,
+      "part_number": "91202-302-010",
+      "name": "OIL SEAL, 13.8 X 24 X",
+      "normalized_name": "Oil Seal, 13.8 X 24 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 5,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 13.8 X 24 X genuine part."
+    },
+    {
+      "id": 29,
+      "part_number": "91205-350-000",
+      "name": "OIL SEAL , 6 X 25 X",
+      "normalized_name": "Oil Seal , 6 X 25 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 6,
+      "is_kit": false,
+      "description": "Extracted Oil Seal , 6 X 25 X genuine part."
+    },
+    {
+      "id": 30,
+      "part_number": "91202-GE0-005",
+      "name": "OIL SEAL ,18.9 X 30 X",
+      "normalized_name": "Oil Seal ,18.9 X 30 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 5,
+      "is_kit": false,
+      "description": "Extracted Oil Seal ,18.9 X 30 X genuine part."
+    },
+    {
+      "id": 31,
+      "part_number": "91203-GB5-760",
+      "name": "OIL SEAL, 17 X 29 X",
+      "normalized_name": "Oil Seal, 17 X 29 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 5,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 17 X 29 X genuine part."
+    },
+    {
+      "id": 32,
+      "part_number": "91208-KB4-670",
+      "name": "OIL SEAL, 11.6 X 24 X",
+      "normalized_name": "Oil Seal, 11.6 X 24 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 10,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 11.6 X 24 X genuine part."
+    },
+    {
+      "id": 33,
+      "part_number": "26K180S",
+      "name": "OIL SEAL KIT (SUPER SPLENDOR)",
+      "normalized_name": "Oil Seal Kit (super Splendor)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 34.5,
+      "quantity": 50,
+      "is_kit": true,
+      "description": "Extracted Oil Seal Kit (super Splendor) genuine part."
+    },
+    {
+      "id": 34,
+      "part_number": "91204-MC7-003",
+      "name": "OIL SEAL, 16 X 28 X",
+      "normalized_name": "Oil Seal, 16 X 28 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 7,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 16 X 28 X genuine part."
+    },
+    {
+      "id": 35,
+      "part_number": "91208-KPH-901",
+      "name": "OIL SEAL, 11.6 X 24 X",
+      "normalized_name": "Oil Seal, 11.6 X 24 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 10,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 11.6 X 24 X genuine part."
+    },
+    {
+      "id": 36,
+      "part_number": "91204-KPH-901",
+      "name": "OIL SEAL, 17 X 30 X",
+      "normalized_name": "Oil Seal, 17 X 30 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 5,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 17 X 30 X genuine part."
+    },
+    {
+      "id": 37,
+      "part_number": "26K210S",
+      "name": "OIL SEAL KIT (HF DLX / SPL NXG SELF STAR",
+      "normalized_name": "Oil Seal Kit (hf Dlx / Spl Nxg Self Star",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 171.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Oil Seal Kit (hf Dlx / Spl Nxg Self Star genuine part."
+    },
+    {
+      "id": 38,
+      "part_number": "26K220S",
+      "name": "OIL SEAL KIT (PASSION PRO)",
+      "normalized_name": "Oil Seal Kit (passion Pro)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 166.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Oil Seal Kit (passion Pro) genuine part."
+    },
+    {
+      "id": 39,
+      "part_number": "26K230S",
+      "name": "OIL SEAL KIT (PLEASURE)",
+      "normalized_name": "Oil Seal Kit (pleasure)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 170.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Oil Seal Kit (pleasure) genuine part."
+    },
+    {
+      "id": 40,
+      "part_number": "26K240S",
+      "name": "OIL SEAL KIT (KARIZMA ZMR)",
+      "normalized_name": "Oil Seal Kit (karizma Zmr)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 62.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Oil Seal Kit (karizma Zmr) genuine part."
+    },
+    {
+      "id": 41,
+      "part_number": "91201-KEH-910",
+      "name": "OIL SEAL, 12 X 22 X",
+      "normalized_name": "Oil Seal, 12 X 22 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 5,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 12 X 22 X genuine part."
+    },
+    {
+      "id": 42,
+      "part_number": "27K181S",
+      "name": "CYLINDER HEAD O-RING KIT",
+      "normalized_name": "Cylinder Head O-ring Kit",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 49.0,
+      "quantity": 100,
+      "is_kit": true,
+      "description": "Extracted Cylinder Head O-ring Kit genuine part."
+    },
+    {
+      "id": 43,
+      "part_number": "27K182S",
+      "name": "STATOR PLATE O-RING KIT",
+      "normalized_name": "Stator Plate O-ring Kit",
+      "category": "Electrical",
+      "system_id": 3,
+      "confidence": 0.95,
+      "mrp": 55.0,
+      "quantity": 200,
+      "is_kit": true,
+      "description": "Extracted Stator Plate O-ring Kit genuine part."
+    },
+    {
+      "id": 44,
+      "part_number": "28K200S",
+      "name": "GASKET KIT (SUPER SPLENDOR - KICK)",
+      "normalized_name": "Gasket Kit (super Splendor - Kick)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 224.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (super Splendor - Kick) genuine part."
+    },
+    {
+      "id": 45,
+      "part_number": "28K210S",
+      "name": "GASKET KIT (SUPER SPLENDOR - SELF)",
+      "normalized_name": "Gasket Kit (super Splendor - Self)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 210.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (super Splendor - Self) genuine part."
+    },
+    {
+      "id": 46,
+      "part_number": "28K230S",
+      "name": "GASKET KIT",
+      "normalized_name": "Gasket Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 301.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit genuine part."
+    },
+    {
+      "id": 47,
+      "part_number": "28K240S",
+      "name": "GASKET KIT (HF DWN /HF DLX)",
+      "normalized_name": "Gasket Kit (hf Dwn /hf Dlx)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 435.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (hf Dwn /hf Dlx) genuine part."
+    },
+    {
+      "id": 48,
+      "part_number": "28K250S",
+      "name": "GASKET KIT",
+      "normalized_name": "Gasket Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 495.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit genuine part."
+    },
+    {
+      "id": 49,
+      "part_number": "28K270S",
+      "name": "GASKET KIT (SPL+ CW)",
+      "normalized_name": "Gasket Kit (spl+ Cw)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 340.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (spl+ Cw) genuine part."
+    },
+    {
+      "id": 50,
+      "part_number": "28K280S",
+      "name": "GASKET KIT (SPLENDOR+ NEW)",
+      "normalized_name": "Gasket Kit (splendor+ New)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 630.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (splendor+ New) genuine part."
+    },
+    {
+      "id": 51,
+      "part_number": "28K290S",
+      "name": "GASKET KIT (HF-DAWN NEW)",
+      "normalized_name": "Gasket Kit (hf-dawn New)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 435.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (hf-dawn New) genuine part."
+    },
+    {
+      "id": 52,
+      "part_number": "28K300S",
+      "name": "GASKET KIT (ACHIEVER NEW)",
+      "normalized_name": "Gasket Kit (achiever New)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 280.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (achiever New) genuine part."
+    },
+    {
+      "id": 53,
+      "part_number": "28K310S",
+      "name": "GASKET KIT (KARIZMA ZMR)",
+      "normalized_name": "Gasket Kit (karizma Zmr)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 558.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Gasket Kit (karizma Zmr) genuine part."
+    },
+    {
+      "id": 54,
+      "part_number": "29K210S",
+      "name": "SPEEDOMETER DRIVE KIT",
+      "normalized_name": "Speedometer Drive Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 47.0,
+      "quantity": 200,
+      "is_kit": true,
+      "description": "Extracted Speedometer Drive Kit genuine part."
+    },
+    {
+      "id": 55,
+      "part_number": "30K410S",
+      "name": "CHAIN COVER KIT",
+      "normalized_name": "Chain Cover Kit",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 420.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Chain Cover Kit genuine part."
+    },
+    {
+      "id": 56,
+      "part_number": "32K210S",
+      "name": "NIPPLE & SPOKE KIT RR.",
+      "normalized_name": "Nipple & Spoke Kit Rear.",
+      "category": "Wheels & Tyres",
+      "system_id": 7,
+      "confidence": 0.8,
+      "mrp": 252.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Nipple & Spoke Kit Rear. genuine part."
+    },
+    {
+      "id": 57,
+      "part_number": "32K310S",
+      "name": "NIPPLE & SPOKE KIT FR.",
+      "normalized_name": "Nipple & Spoke Kit Front.",
+      "category": "Wheels & Tyres",
+      "system_id": 7,
+      "confidence": 0.8,
+      "mrp": 252.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Nipple & Spoke Kit Front. genuine part."
+    },
+    {
+      "id": 58,
+      "part_number": "33K140S",
+      "name": "PISTON RING KIT STD (Y2K)",
+      "normalized_name": "Piston Ring Kit Std (y2k)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 700.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit Std (y2k) genuine part."
+    },
+    {
+      "id": 59,
+      "part_number": "33K141S",
+      "name": "PISTON RING KIT I-OVER SIZE (Y2K)",
+      "normalized_name": "Piston Ring Kit I-over Size (y2k)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 675.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit I-over Size (y2k) genuine part."
+    },
+    {
+      "id": 60,
+      "part_number": "33K142S",
+      "name": "PISTON RING KIT II-OVER SIZE (Y2K)",
+      "normalized_name": "Piston Ring Kit Ii-over Size (y2k)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 675.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit Ii-over Size (y2k) genuine part."
+    },
+    {
+      "id": 61,
+      "part_number": "33K143S",
+      "name": "PISTON RING KIT(III-OVER SIZE)",
+      "normalized_name": "Piston Ring Kit(iii-over Size)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 675.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(iii-over Size) genuine part."
+    },
+    {
+      "id": 62,
+      "part_number": "33K150S",
+      "name": "PISTON RING KIT(STD)",
+      "normalized_name": "Piston Ring Kit(std)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 620.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(std) genuine part."
+    },
+    {
+      "id": 63,
+      "part_number": "33K151S",
+      "name": "PISTON RING KIT(I-OVER SIZE)",
+      "normalized_name": "Piston Ring Kit(i-over Size)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 630.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(i-over Size) genuine part."
+    },
+    {
+      "id": 64,
+      "part_number": "33K152S",
+      "name": "PISTON RING KIT(II-OVER SIZE)",
+      "normalized_name": "Piston Ring Kit(ii-over Size)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 625.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(ii-over Size) genuine part."
+    },
+    {
+      "id": 65,
+      "part_number": "33K153S",
+      "name": "PISTON RING KIT(III-OVER SIZE)",
+      "normalized_name": "Piston Ring Kit(iii-over Size)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 600.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(iii-over Size) genuine part."
+    },
+    {
+      "id": 66,
+      "part_number": "33K160S",
+      "name": "PISTON RING KIT(STD)",
+      "normalized_name": "Piston Ring Kit(std)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 630.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(std) genuine part."
+    },
+    {
+      "id": 67,
+      "part_number": "33K161S",
+      "name": "PISTON RING KIT(I-OVER SIZE)",
+      "normalized_name": "Piston Ring Kit(i-over Size)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 650.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(i-over Size) genuine part."
+    },
+    {
+      "id": 68,
+      "part_number": "33K162S",
+      "name": "PISTON RING KIT(II-OVER SIZE)",
+      "normalized_name": "Piston Ring Kit(ii-over Size)",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 600.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Piston Ring Kit(ii-over Size) genuine part."
+    },
+    {
+      "id": 69,
+      "part_number": "35K010S",
+      "name": "STEP R KIT",
+      "normalized_name": "Step R Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 170.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Step R Kit genuine part."
+    },
+    {
+      "id": 70,
+      "part_number": "35K020S",
+      "name": "STEP R KIT",
+      "normalized_name": "Step R Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 170.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Step R Kit genuine part."
+    },
+    {
+      "id": 71,
+      "part_number": "35K110S",
+      "name": "STEP L KIT",
+      "normalized_name": "Step L Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 170.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Step L Kit genuine part."
+    },
+    {
+      "id": 72,
+      "part_number": "35K120S",
+      "name": "STEP L KIT",
+      "normalized_name": "Step L Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 170.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Step L Kit genuine part."
+    },
+    {
+      "id": 73,
+      "part_number": "36K010S",
+      "name": "DISC CLUTCH FRICTION KIT - KARIZMA",
+      "normalized_name": "Disc Clutch Friction Kit - Karizma",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 1455.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Disc Clutch Friction Kit - Karizma genuine part."
+    },
+    {
+      "id": 74,
+      "part_number": "22201-KPM-850",
+      "name": "DISK,CLUTCH FRICTION,4 X 8 X",
+      "normalized_name": "Disk,clutch Friction,4 X 8 X",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 3.0,
+      "quantity": 45,
+      "is_kit": false,
+      "description": "Extracted Disk,clutch Friction,4 X 8 X genuine part."
+    },
+    {
+      "id": 75,
+      "part_number": "36K020S",
+      "name": "DISC CLUTCH FRICTION KIT - SUP. SPL / GL",
+      "normalized_name": "Disc Clutch Friction Kit - Sup. Spl / Gl",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 570.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Disc Clutch Friction Kit - Sup. Spl / Gl genuine part."
+    },
+    {
+      "id": 76,
+      "part_number": "36K030S",
+      "name": "DISC CLUTCH FRICTION KIT - ACHIEVER",
+      "normalized_name": "Disc Clutch Friction Kit - Achiever",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 1338.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Disc Clutch Friction Kit - Achiever genuine part."
+    },
+    {
+      "id": 77,
+      "part_number": "37K030S",
+      "name": "SIDE STAND KIT (PLEASURE)",
+      "normalized_name": "Side Stand Kit (pleasure)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.9,
+      "mrp": 170.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Side Stand Kit (pleasure) genuine part."
+    },
+    {
+      "id": 78,
+      "part_number": "37K040S",
+      "name": "STEP SARI KIT (PLEASURE)",
+      "normalized_name": "Step Sari Kit (pleasure)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 670.0,
+      "quantity": 2,
+      "is_kit": true,
+      "description": "Extracted Step Sari Kit (pleasure) genuine part."
+    },
+    {
+      "id": 79,
+      "part_number": "38K040S",
+      "name": "GLOVE BOX KIT",
+      "normalized_name": "Glove Box Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 903.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Glove Box Kit genuine part."
+    },
+    {
+      "id": 80,
+      "part_number": "38K050S",
+      "name": "GLOVE BOX KIT",
+      "normalized_name": "Glove Box Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 955.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Glove Box Kit genuine part."
+    },
+    {
+      "id": 81,
+      "part_number": "38K070S",
+      "name": "STEP SARI KIT",
+      "normalized_name": "Step Sari Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 654.0,
+      "quantity": 2,
+      "is_kit": true,
+      "description": "Extracted Step Sari Kit genuine part."
+    },
+    {
+      "id": 82,
+      "part_number": "SPLENDOR",
+      "name": "- SELF)",
+      "normalized_name": "- Self)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 220.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted - Self) genuine part."
+    },
+    {
+      "id": 83,
+      "part_number": "91302-KEV-900",
+      "name": "O-RING, 30.8 X",
+      "normalized_name": "O-ring, 30.8 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 2.0,
+      "quantity": 3,
+      "is_kit": false,
+      "description": "Extracted O-ring, 30.8 X genuine part."
+    },
+    {
+      "id": 84,
+      "part_number": "CYLINDER",
+      "name": "STD KIT",
+      "normalized_name": "Std Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 2577.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Std Kit genuine part."
+    },
+    {
+      "id": 85,
+      "part_number": "ELEMENT",
+      "name": "AIR CLEANER KIT",
+      "normalized_name": "Air Cleaner Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 100.0,
+      "quantity": 50,
+      "is_kit": true,
+      "description": "Extracted Air Cleaner Kit genuine part."
+    },
+    {
+      "id": 86,
+      "part_number": "PROTECTOR",
+      "name": "MUFFLER MOUNTING",
+      "normalized_name": "Muffler Mounting",
+      "category": "Exhaust",
+      "system_id": 10,
+      "confidence": 0.95,
+      "mrp": 40.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Muffler Mounting genuine part."
+    },
+    {
+      "id": 87,
+      "part_number": "GLAMOUR",
+      "name": "I3S IBS",
+      "normalized_name": "I3s Ibs",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 835.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted I3s Ibs genuine part."
+    },
+    {
+      "id": 88,
+      "part_number": "FRICTION",
+      "name": "KIT - KARIZMA",
+      "normalized_name": "Kit - Karizma",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1550.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Kit - Karizma genuine part."
+    },
+    {
+      "id": 89,
+      "part_number": "SPROCKET",
+      "name": "KIT",
+      "normalized_name": "Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 795.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Kit genuine part."
+    },
+    {
+      "id": 90,
+      "part_number": "40530-ABZ-00099",
+      "name": "CHAIN DRIVE 520H",
+      "normalized_name": "Chain Drive 520h",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 1.0,
+      "quantity": 108,
+      "is_kit": false,
+      "description": "Extracted Chain Drive 520h genuine part."
+    },
+    {
+      "id": 91,
+      "part_number": "50618-KE8-000",
+      "name": "COLLAR, 6.5 X 11 X",
+      "normalized_name": "Collar, 6.5 X 11 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 3,
+      "is_kit": false,
+      "description": "Extracted Collar, 6.5 X 11 X genuine part."
+    },
+    {
+      "id": 92,
+      "part_number": "PILLION",
+      "name": "L STEP",
+      "normalized_name": "L Step",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 244.5,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted L Step genuine part."
+    },
+    {
+      "id": 93,
+      "part_number": "CUSHION",
+      "name": "BUSH",
+      "normalized_name": "Bush",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 88.0,
+      "quantity": 10,
+      "is_kit": true,
+      "description": "Extracted Bush genuine part."
+    },
+    {
+      "id": 94,
+      "part_number": "91202-KSP-911",
+      "name": "OIL SEAL, 12 X 18 X",
+      "normalized_name": "Oil Seal, 12 X 18 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 4,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 12 X 18 X genuine part."
+    },
+    {
+      "id": 95,
+      "part_number": "91203-KSP-910",
+      "name": "OIL SEAL, 14 X 22 X",
+      "normalized_name": "Oil Seal, 14 X 22 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 5,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 14 X 22 X genuine part."
+    },
+    {
+      "id": 96,
+      "part_number": "PASSION",
+      "name": "PRO)",
+      "normalized_name": "Pro)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 155.0,
+      "quantity": 20,
+      "is_kit": true,
+      "description": "Extracted Pro) genuine part."
+    },
+    {
+      "id": 97,
+      "part_number": "90701-GF6-000",
+      "name": "PIN, DOWEL, 8 X",
+      "normalized_name": "Pin, Dowel, 8 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 4.0,
+      "quantity": 14,
+      "is_kit": false,
+      "description": "Extracted Pin, Dowel, 8 X genuine part."
+    },
+    {
+      "id": 98,
+      "part_number": "91001-KTC-900",
+      "name": "BRG. ROLLER, 22 X 58 X",
+      "normalized_name": "Bearing. Roller, 22 X 58 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 17,
+      "is_kit": false,
+      "description": "Extracted Bearing. Roller, 22 X 58 X genuine part."
+    },
+    {
+      "id": 99,
+      "part_number": "BEARING",
+      "name": "KIT",
+      "normalized_name": "Kit",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 505.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Extracted Kit genuine part."
+    },
+    {
+      "id": 100,
+      "part_number": "90755-229-000",
+      "name": "OIL SEAL, 21 X 37 X",
+      "normalized_name": "Oil Seal, 21 X 37 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 7,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 21 X 37 X genuine part."
+    },
+    {
+      "id": 101,
+      "part_number": "90753-029-000",
+      "name": "OIL SEAL, 27 X 40 X",
+      "normalized_name": "Oil Seal, 27 X 40 X",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1.0,
+      "quantity": 6,
+      "is_kit": false,
+      "description": "Extracted Oil Seal, 27 X 40 X genuine part."
+    },
+    {
+      "id": 102,
+      "part_number": "BEADING",
+      "name": "ASSY",
+      "normalized_name": "Assembly",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 1999.0,
+      "quantity": 5,
+      "is_kit": true,
+      "description": "Extracted Assembly genuine part."
+    },
+    {
+      "id": 103,
+      "part_number": "12101-KSP-910A",
+      "name": "Cylinder Piston Kit",
+      "normalized_name": "Cylinder Piston Kit",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 2450.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Genuine Cylinder Piston Kit motorcycle part."
+    },
+    {
+      "id": 104,
+      "part_number": "12100-KSP-910",
+      "name": "Cylinder Block",
+      "normalized_name": "Cylinder Block",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 1850.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Cylinder Block motorcycle part."
+    },
+    {
+      "id": 105,
+      "part_number": "13101-KSP-910",
+      "name": "Piston COMP",
+      "normalized_name": "Piston Complete",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 450.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Piston Complete motorcycle part."
+    },
+    {
+      "id": 106,
+      "part_number": "13011-KSP-910",
+      "name": "Piston Ring Set",
+      "normalized_name": "Piston Ring Set",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 280.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Piston Ring Set motorcycle part."
+    },
+    {
+      "id": 107,
+      "part_number": "13111-KSP-910",
+      "name": "Piston Pin",
+      "normalized_name": "Piston Pin",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 60.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Piston Pin motorcycle part."
+    },
+    {
+      "id": 108,
+      "part_number": "94601-15000",
+      "name": "Piston Pin Clip 15mm",
+      "normalized_name": "Piston Pin Clip 15mm",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 5.0,
+      "quantity": 2,
+      "is_kit": false,
+      "description": "Genuine Piston Pin Clip 15mm motorcycle part."
+    },
+    {
+      "id": 109,
+      "part_number": "12191-KSP-910",
+      "name": "Cylinder Gasket",
+      "normalized_name": "Cylinder Gasket",
+      "category": "Engine",
+      "system_id": 1,
+      "confidence": 0.95,
+      "mrp": 40.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Cylinder Gasket motorcycle part."
+    },
+    {
+      "id": 110,
+      "part_number": "40530-KCC-900",
+      "name": "Drive Chain 428-108L",
+      "normalized_name": "Drive Chain 428-108l",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.85,
+      "mrp": 450.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Drive Chain 428-108l motorcycle part."
+    },
+    {
+      "id": 111,
+      "part_number": "23801-KCC-900",
+      "name": "Drive Sprocket 14T",
+      "normalized_name": "Drive Sprocket 14t",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 120.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Drive Sprocket 14t motorcycle part."
+    },
+    {
+      "id": 112,
+      "part_number": "41201-KCC-900",
+      "name": "Final Driven Sprocket 44T",
+      "normalized_name": "Final Driven Sprocket 44t",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 680.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Final Driven Sprocket 44t motorcycle part."
+    },
+    {
+      "id": 113,
+      "part_number": "90128-KCC-900",
+      "name": "Sprocket Fix Bolt",
+      "normalized_name": "Sprocket Fix Bolt",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.95,
+      "mrp": 25.0,
+      "quantity": 4,
+      "is_kit": false,
+      "description": "Genuine Sprocket Fix Bolt motorcycle part."
+    },
+    {
+      "id": 114,
+      "part_number": "22201-KCC-900S",
+      "name": "Clutch Plate Kit",
+      "normalized_name": "Clutch Plate Kit",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 550.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Genuine Clutch Plate Kit motorcycle part."
+    },
+    {
+      "id": 115,
+      "part_number": "22201-KCC-900",
+      "name": "Clutch Friction Plate A",
+      "normalized_name": "Clutch Friction Plate a",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 110.0,
+      "quantity": 4,
+      "is_kit": false,
+      "description": "Genuine Clutch Friction Plate a motorcycle part."
+    },
+    {
+      "id": 116,
+      "part_number": "22311-KCC-900",
+      "name": "Clutch Steel Plate",
+      "normalized_name": "Clutch Steel Plate",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 75.0,
+      "quantity": 3,
+      "is_kit": false,
+      "description": "Genuine Clutch Steel Plate motorcycle part."
+    },
+    {
+      "id": 117,
+      "part_number": "22351-KCC-900",
+      "name": "Clutch Pressure Plate",
+      "normalized_name": "Clutch Pressure Plate",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 95.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Clutch Pressure Plate motorcycle part."
+    },
+    {
+      "id": 118,
+      "part_number": "22120-KCC-900",
+      "name": "Clutch Center",
+      "normalized_name": "Clutch Center",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 160.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Clutch Center motorcycle part."
+    },
+    {
+      "id": 119,
+      "part_number": "22121-KCC-900",
+      "name": "Clutch Hub",
+      "normalized_name": "Clutch Hub",
+      "category": "Transmission",
+      "system_id": 4,
+      "confidence": 0.9,
+      "mrp": 180.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Clutch Hub motorcycle part."
+    },
+    {
+      "id": 120,
+      "part_number": "06430-KCC-900",
+      "name": "Brake Shoe Kit",
+      "normalized_name": "Brake Shoe Kit",
+      "category": "Braking",
+      "system_id": 5,
+      "confidence": 0.95,
+      "mrp": 220.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Genuine Brake Shoe Kit motorcycle part."
+    },
+    {
+      "id": 121,
+      "part_number": "43125-KCC-900",
+      "name": "Brake Shoe Set",
+      "normalized_name": "Brake Shoe Set",
+      "category": "Braking",
+      "system_id": 5,
+      "confidence": 0.95,
+      "mrp": 180.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Brake Shoe Set motorcycle part."
+    },
+    {
+      "id": 122,
+      "part_number": "45133-KCC-900",
+      "name": "Brake Shoe Spring",
+      "normalized_name": "Brake Shoe Spring",
+      "category": "Braking",
+      "system_id": 5,
+      "confidence": 0.95,
+      "mrp": 15.0,
+      "quantity": 2,
+      "is_kit": false,
+      "description": "Genuine Brake Shoe Spring motorcycle part."
+    },
+    {
+      "id": 123,
+      "part_number": "51490-KCC-900",
+      "name": "Front Fork Seal Kit",
+      "normalized_name": "Front Fork Seal Kit",
+      "category": "Suspension",
+      "system_id": 6,
+      "confidence": 0.95,
+      "mrp": 190.0,
+      "quantity": 1,
+      "is_kit": true,
+      "description": "Genuine Front Fork Seal Kit motorcycle part."
+    },
+    {
+      "id": 124,
+      "part_number": "51490-KFT-900",
+      "name": "Fork Oil Seal",
+      "normalized_name": "Fork Oil Seal",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 90.0,
+      "quantity": 2,
+      "is_kit": false,
+      "description": "Genuine Fork Oil Seal motorcycle part."
+    },
+    {
+      "id": 125,
+      "part_number": "51490-KFT-901",
+      "name": "Fork Dust Seal",
+      "normalized_name": "Fork Dust Seal",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 70.0,
+      "quantity": 2,
+      "is_kit": false,
+      "description": "Genuine Fork Dust Seal motorcycle part."
+    },
+    {
+      "id": 126,
+      "part_number": "98056-57718",
+      "name": "Plug Spark (NGK CPR7EA-9)",
+      "normalized_name": "Spark Plug (ngk Cpr7ea-9)",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 105.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Spark Plug (ngk Cpr7ea-9) motorcycle part."
+    },
+    {
+      "id": 127,
+      "part_number": "17211-KCC-900",
+      "name": "Element Air Cleaner",
+      "normalized_name": "Element Air Cleaner",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 140.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Element Air Cleaner motorcycle part."
+    },
+    {
+      "id": 128,
+      "part_number": "16100-KCC-900",
+      "name": "Carburetor Assembly",
+      "normalized_name": "Carburetor Assembly",
+      "category": "Fuel System",
+      "system_id": 2,
+      "confidence": 0.95,
+      "mrp": 2850.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Carburetor Assembly motorcycle part."
+    },
+    {
+      "id": 129,
+      "part_number": "45251-KSP-900",
+      "name": "Front Brake Disc",
+      "normalized_name": "Front Brake Disc",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.5,
+      "mrp": 950.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Front Brake Disc motorcycle part."
+    },
+    {
+      "id": 130,
+      "part_number": "52400-KCC-900",
+      "name": "Cushion Rear Assembly (Shock Absorber)",
+      "normalized_name": "Cushion Rear Assembly (shock Absorber)",
+      "category": "Suspension",
+      "system_id": 6,
+      "confidence": 0.95,
+      "mrp": 1250.0,
+      "quantity": 2,
+      "is_kit": false,
+      "description": "Genuine Cushion Rear Assembly (shock Absorber) motorcycle part."
+    },
+    {
+      "id": 131,
+      "part_number": "31500-KCC-900",
+      "name": "MF Battery 12V 3Ah",
+      "normalized_name": "Mf Battery 12v 3ah",
+      "category": "Electrical",
+      "system_id": 3,
+      "confidence": 0.95,
+      "mrp": 1150.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Mf Battery 12v 3ah motorcycle part."
+    },
+    {
+      "id": 132,
+      "part_number": "18391-KCC-900",
+      "name": "Gasket Muffler Joint",
+      "normalized_name": "Gasket Muffler Joint",
+      "category": "Exhaust",
+      "system_id": 10,
+      "confidence": 0.95,
+      "mrp": 35.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Gasket Muffler Joint motorcycle part."
+    },
+    {
+      "id": 133,
+      "part_number": "18300-KCC-900",
+      "name": "Muffler Assembly Ex",
+      "normalized_name": "Muffler Assembly Ex",
+      "category": "Exhaust",
+      "system_id": 10,
+      "confidence": 0.95,
+      "mrp": 3450.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Muffler Assembly Ex motorcycle part."
+    },
+    {
+      "id": 134,
+      "part_number": "32100-KCC-900",
+      "name": "Wire Harness Complete",
+      "normalized_name": "Wire Harness Complete",
+      "category": "Electrical",
+      "system_id": 3,
+      "confidence": 0.95,
+      "mrp": 1250.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Wire Harness Complete motorcycle part."
+    },
+    {
+      "id": 135,
+      "part_number": "35010-KCC-900",
+      "name": "Switch Key Set (Lock Assy)",
+      "normalized_name": "Switch Key Set (lock Assembly)",
+      "category": "Electrical",
+      "system_id": 3,
+      "confidence": 0.85,
+      "mrp": 550.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Switch Key Set (lock Assembly) motorcycle part."
+    },
+    {
+      "id": 136,
+      "part_number": "42711-KCC-900",
+      "name": "Rear Tyre 3.00-18 (Tube Type)",
+      "normalized_name": "Rear Tyre 3.00-18 (tube Type)",
+      "category": "Wheels & Tyres",
+      "system_id": 7,
+      "confidence": 0.95,
+      "mrp": 1650.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Rear Tyre 3.00-18 (tube Type) motorcycle part."
+    },
+    {
+      "id": 137,
+      "part_number": "44711-KCC-900",
+      "name": "Front Tyre 2.75-18",
+      "normalized_name": "Front Tyre 2.75-18",
+      "category": "Wheels & Tyres",
+      "system_id": 7,
+      "confidence": 0.95,
+      "mrp": 1450.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Front Tyre 2.75-18 motorcycle part."
+    },
+    {
+      "id": 138,
+      "part_number": "83500-KCC-900",
+      "name": "Side Cover Left Hand",
+      "normalized_name": "Side Cover Left Hand",
+      "category": "Body Parts",
+      "system_id": 8,
+      "confidence": 0.9,
+      "mrp": 420.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Side Cover Left Hand motorcycle part."
+    },
+    {
+      "id": 139,
+      "part_number": "83600-KCC-900",
+      "name": "Side Cover Right Hand",
+      "normalized_name": "Side Cover Right Hand",
+      "category": "Body Parts",
+      "system_id": 8,
+      "confidence": 0.9,
+      "mrp": 420.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Side Cover Right Hand motorcycle part."
+    },
+    {
+      "id": 140,
+      "part_number": "50100-KCC-900",
+      "name": "Frame Body Complete",
+      "normalized_name": "Frame Body Complete",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.95,
+      "mrp": 8500.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Frame Body Complete motorcycle part."
+    },
+    {
+      "id": 141,
+      "part_number": "52110-KCC-900",
+      "name": "Swingarm Complete Rear",
+      "normalized_name": "Swingarm Complete Rear",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.95,
+      "mrp": 1100.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Swingarm Complete Rear motorcycle part."
+    },
+    {
+      "id": 142,
+      "part_number": "50500-KCC-900",
+      "name": "Main Stand Complete",
+      "normalized_name": "Main Stand Complete",
+      "category": "Chassis",
+      "system_id": 9,
+      "confidence": 0.9,
+      "mrp": 350.0,
+      "quantity": 1,
+      "is_kit": false,
+      "description": "Genuine Main Stand Complete motorcycle part."
+    }
+  ],
+  "kits": [
+    {
+      "id": 1,
+      "part_id": 1,
+      "kit_number": "20K1010S",
+      "name": "Chain Sprocket Kit"
+    },
+    {
+      "id": 2,
+      "part_id": 2,
+      "kit_number": "20K1110S",
+      "name": "Chain Sprocket Kit (hf Dwn / Hf Dlx)"
+    },
+    {
+      "id": 3,
+      "part_id": 3,
+      "kit_number": "20K1120S",
+      "name": "Chain Sprocket Kit (hf-dawn New)"
+    },
+    {
+      "id": 4,
+      "part_id": 4,
+      "kit_number": "20K710S",
+      "name": "Chain Sprocket Kit (sup. Splendor)"
+    },
+    {
+      "id": 5,
+      "part_id": 5,
+      "kit_number": "20K810S",
+      "name": "Chain Sprocket Kit-"
+    },
+    {
+      "id": 6,
+      "part_id": 6,
+      "kit_number": "20K910S",
+      "name": "Chain Sprocket Kit (achiever)"
+    },
+    {
+      "id": 7,
+      "part_id": 8,
+      "kit_number": "21K180S",
+      "name": "Cylinder Std Kit"
+    },
+    {
+      "id": 8,
+      "part_id": 9,
+      "kit_number": "21K200S",
+      "name": "Cylinder Kit (glamour)"
+    },
+    {
+      "id": 9,
+      "part_id": 10,
+      "kit_number": "21K220S",
+      "name": "Cylinder Kit (passion Pro)"
+    },
+    {
+      "id": 10,
+      "part_id": 11,
+      "kit_number": "21K260S",
+      "name": "Cylinder Kit (achiever New)"
+    },
+    {
+      "id": 11,
+      "part_id": 12,
+      "kit_number": "21K280S",
+      "name": "Cylinder Kit (hunk New)"
+    },
+    {
+      "id": 12,
+      "part_id": 13,
+      "kit_number": "22K130LS",
+      "name": "Cam.chain Kit"
+    },
+    {
+      "id": 13,
+      "part_id": 14,
+      "kit_number": "22K150S",
+      "name": "Cam Chain Kit (super Splendor)"
+    },
+    {
+      "id": 14,
+      "part_id": 15,
+      "kit_number": "22K170S",
+      "name": "Cam.chain Kit"
+    },
+    {
+      "id": 15,
+      "part_id": 16,
+      "kit_number": "22K190S",
+      "name": "Cam Chain Kit (karizma Zmr)"
+    },
+    {
+      "id": 16,
+      "part_id": 17,
+      "kit_number": "23K240LS",
+      "name": "Con Rod Kit (splendor)"
+    },
+    {
+      "id": 17,
+      "part_id": 18,
+      "kit_number": "24K150LS",
+      "name": "Valve Kit"
+    },
+    {
+      "id": 18,
+      "part_id": 19,
+      "kit_number": "24K160S",
+      "name": "Valve Kit (super Splendor)"
+    },
+    {
+      "id": 19,
+      "part_id": 20,
+      "kit_number": "24K170S",
+      "name": "Valve Kit"
+    },
+    {
+      "id": 20,
+      "part_id": 21,
+      "kit_number": "24K180S",
+      "name": "Valve Kit (karizma)"
+    },
+    {
+      "id": 21,
+      "part_id": 22,
+      "kit_number": "24K190S",
+      "name": "Valve Kit (pleasure)"
+    },
+    {
+      "id": 22,
+      "part_id": 23,
+      "kit_number": "24K200S",
+      "name": "Valve Kit (achiever New)"
+    },
+    {
+      "id": 23,
+      "part_id": 24,
+      "kit_number": "25K160S",
+      "name": "Ball Races Kit"
+    },
+    {
+      "id": 24,
+      "part_id": 25,
+      "kit_number": "25K170S",
+      "name": "Ball Races Kit (achr/glmr)"
+    },
+    {
+      "id": 25,
+      "part_id": 26,
+      "kit_number": "25K180S",
+      "name": "Ball Race Kit (pleasure)"
+    },
+    {
+      "id": 26,
+      "part_id": 27,
+      "kit_number": "26K170LS",
+      "name": "Oil Seal Kit"
+    },
+    {
+      "id": 27,
+      "part_id": 33,
+      "kit_number": "26K180S",
+      "name": "Oil Seal Kit (super Splendor)"
+    },
+    {
+      "id": 28,
+      "part_id": 37,
+      "kit_number": "26K210S",
+      "name": "Oil Seal Kit (hf Dlx / Spl Nxg Self Star"
+    },
+    {
+      "id": 29,
+      "part_id": 38,
+      "kit_number": "26K220S",
+      "name": "Oil Seal Kit (passion Pro)"
+    },
+    {
+      "id": 30,
+      "part_id": 39,
+      "kit_number": "26K230S",
+      "name": "Oil Seal Kit (pleasure)"
+    },
+    {
+      "id": 31,
+      "part_id": 40,
+      "kit_number": "26K240S",
+      "name": "Oil Seal Kit (karizma Zmr)"
+    },
+    {
+      "id": 32,
+      "part_id": 42,
+      "kit_number": "27K181S",
+      "name": "Cylinder Head O-ring Kit"
+    },
+    {
+      "id": 33,
+      "part_id": 43,
+      "kit_number": "27K182S",
+      "name": "Stator Plate O-ring Kit"
+    },
+    {
+      "id": 34,
+      "part_id": 44,
+      "kit_number": "28K200S",
+      "name": "Gasket Kit (super Splendor - Kick)"
+    },
+    {
+      "id": 35,
+      "part_id": 45,
+      "kit_number": "28K210S",
+      "name": "Gasket Kit (super Splendor - Self)"
+    },
+    {
+      "id": 36,
+      "part_id": 46,
+      "kit_number": "28K230S",
+      "name": "Gasket Kit"
+    },
+    {
+      "id": 37,
+      "part_id": 47,
+      "kit_number": "28K240S",
+      "name": "Gasket Kit (hf Dwn /hf Dlx)"
+    },
+    {
+      "id": 38,
+      "part_id": 48,
+      "kit_number": "28K250S",
+      "name": "Gasket Kit"
+    },
+    {
+      "id": 39,
+      "part_id": 49,
+      "kit_number": "28K270S",
+      "name": "Gasket Kit (spl+ Cw)"
+    },
+    {
+      "id": 40,
+      "part_id": 50,
+      "kit_number": "28K280S",
+      "name": "Gasket Kit (splendor+ New)"
+    },
+    {
+      "id": 41,
+      "part_id": 51,
+      "kit_number": "28K290S",
+      "name": "Gasket Kit (hf-dawn New)"
+    },
+    {
+      "id": 42,
+      "part_id": 52,
+      "kit_number": "28K300S",
+      "name": "Gasket Kit (achiever New)"
+    },
+    {
+      "id": 43,
+      "part_id": 53,
+      "kit_number": "28K310S",
+      "name": "Gasket Kit (karizma Zmr)"
+    },
+    {
+      "id": 44,
+      "part_id": 54,
+      "kit_number": "29K210S",
+      "name": "Speedometer Drive Kit"
+    },
+    {
+      "id": 45,
+      "part_id": 55,
+      "kit_number": "30K410S",
+      "name": "Chain Cover Kit"
+    },
+    {
+      "id": 46,
+      "part_id": 56,
+      "kit_number": "32K210S",
+      "name": "Nipple & Spoke Kit Rear."
+    },
+    {
+      "id": 47,
+      "part_id": 57,
+      "kit_number": "32K310S",
+      "name": "Nipple & Spoke Kit Front."
+    },
+    {
+      "id": 48,
+      "part_id": 58,
+      "kit_number": "33K140S",
+      "name": "Piston Ring Kit Std (y2k)"
+    },
+    {
+      "id": 49,
+      "part_id": 59,
+      "kit_number": "33K141S",
+      "name": "Piston Ring Kit I-over Size (y2k)"
+    },
+    {
+      "id": 50,
+      "part_id": 60,
+      "kit_number": "33K142S",
+      "name": "Piston Ring Kit Ii-over Size (y2k)"
+    },
+    {
+      "id": 51,
+      "part_id": 61,
+      "kit_number": "33K143S",
+      "name": "Piston Ring Kit(iii-over Size)"
+    },
+    {
+      "id": 52,
+      "part_id": 62,
+      "kit_number": "33K150S",
+      "name": "Piston Ring Kit(std)"
+    },
+    {
+      "id": 53,
+      "part_id": 63,
+      "kit_number": "33K151S",
+      "name": "Piston Ring Kit(i-over Size)"
+    },
+    {
+      "id": 54,
+      "part_id": 64,
+      "kit_number": "33K152S",
+      "name": "Piston Ring Kit(ii-over Size)"
+    },
+    {
+      "id": 55,
+      "part_id": 65,
+      "kit_number": "33K153S",
+      "name": "Piston Ring Kit(iii-over Size)"
+    },
+    {
+      "id": 56,
+      "part_id": 66,
+      "kit_number": "33K160S",
+      "name": "Piston Ring Kit(std)"
+    },
+    {
+      "id": 57,
+      "part_id": 67,
+      "kit_number": "33K161S",
+      "name": "Piston Ring Kit(i-over Size)"
+    },
+    {
+      "id": 58,
+      "part_id": 68,
+      "kit_number": "33K162S",
+      "name": "Piston Ring Kit(ii-over Size)"
+    },
+    {
+      "id": 59,
+      "part_id": 69,
+      "kit_number": "35K010S",
+      "name": "Step R Kit"
+    },
+    {
+      "id": 60,
+      "part_id": 70,
+      "kit_number": "35K020S",
+      "name": "Step R Kit"
+    },
+    {
+      "id": 61,
+      "part_id": 71,
+      "kit_number": "35K110S",
+      "name": "Step L Kit"
+    },
+    {
+      "id": 62,
+      "part_id": 72,
+      "kit_number": "35K120S",
+      "name": "Step L Kit"
+    },
+    {
+      "id": 63,
+      "part_id": 73,
+      "kit_number": "36K010S",
+      "name": "Disc Clutch Friction Kit - Karizma"
+    },
+    {
+      "id": 64,
+      "part_id": 75,
+      "kit_number": "36K020S",
+      "name": "Disc Clutch Friction Kit - Sup. Spl / Gl"
+    },
+    {
+      "id": 65,
+      "part_id": 76,
+      "kit_number": "36K030S",
+      "name": "Disc Clutch Friction Kit - Achiever"
+    },
+    {
+      "id": 66,
+      "part_id": 77,
+      "kit_number": "37K030S",
+      "name": "Side Stand Kit (pleasure)"
+    },
+    {
+      "id": 67,
+      "part_id": 78,
+      "kit_number": "37K040S",
+      "name": "Step Sari Kit (pleasure)"
+    },
+    {
+      "id": 68,
+      "part_id": 79,
+      "kit_number": "38K040S",
+      "name": "Glove Box Kit"
+    },
+    {
+      "id": 69,
+      "part_id": 80,
+      "kit_number": "38K050S",
+      "name": "Glove Box Kit"
+    },
+    {
+      "id": 70,
+      "part_id": 81,
+      "kit_number": "38K070S",
+      "name": "Step Sari Kit"
+    },
+    {
+      "id": 71,
+      "part_id": 82,
+      "kit_number": "SPLENDOR",
+      "name": "- Self)"
+    },
+    {
+      "id": 72,
+      "part_id": 84,
+      "kit_number": "CYLINDER",
+      "name": "Std Kit"
+    },
+    {
+      "id": 73,
+      "part_id": 85,
+      "kit_number": "ELEMENT",
+      "name": "Air Cleaner Kit"
+    },
+    {
+      "id": 74,
+      "part_id": 86,
+      "kit_number": "PROTECTOR",
+      "name": "Muffler Mounting"
+    },
+    {
+      "id": 75,
+      "part_id": 87,
+      "kit_number": "GLAMOUR",
+      "name": "I3s Ibs"
+    },
+    {
+      "id": 76,
+      "part_id": 88,
+      "kit_number": "FRICTION",
+      "name": "Kit - Karizma"
+    },
+    {
+      "id": 77,
+      "part_id": 89,
+      "kit_number": "SPROCKET",
+      "name": "Kit"
+    },
+    {
+      "id": 78,
+      "part_id": 92,
+      "kit_number": "PILLION",
+      "name": "L Step"
+    },
+    {
+      "id": 79,
+      "part_id": 93,
+      "kit_number": "CUSHION",
+      "name": "Bush"
+    },
+    {
+      "id": 80,
+      "part_id": 96,
+      "kit_number": "PASSION",
+      "name": "Pro)"
+    },
+    {
+      "id": 81,
+      "part_id": 99,
+      "kit_number": "BEARING",
+      "name": "Kit"
+    },
+    {
+      "id": 82,
+      "part_id": 102,
+      "kit_number": "BEADING",
+      "name": "Assembly"
+    },
+    {
+      "id": 83,
+      "part_id": 103,
+      "kit_number": "12101-KSP-910A",
+      "name": "Cylinder Piston Kit"
+    },
+    {
+      "id": 84,
+      "part_id": 114,
+      "kit_number": "22201-KCC-900S",
+      "name": "Clutch Plate Kit"
+    },
+    {
+      "id": 85,
+      "part_id": 120,
+      "kit_number": "06430-KCC-900",
+      "name": "Brake Shoe Kit"
+    },
+    {
+      "id": 86,
+      "part_id": 123,
+      "kit_number": "51490-KCC-900",
+      "name": "Front Fork Seal Kit"
+    }
+  ],
+  "part_relationships": [
+    {
+      "id": 1,
+      "kit_id": 83,
+      "parent_part_id": 103,
+      "child_part_id": 104,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "kit_id": 83,
+      "parent_part_id": 103,
+      "child_part_id": 105,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "kit_id": 83,
+      "parent_part_id": 103,
+      "child_part_id": 106,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "kit_id": 83,
+      "parent_part_id": 103,
+      "child_part_id": 107,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "kit_id": 83,
+      "parent_part_id": 103,
+      "child_part_id": 108,
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "kit_id": 83,
+      "parent_part_id": 103,
+      "child_part_id": 109,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "kit_id": 7,
+      "parent_part_id": 8,
+      "child_part_id": 110,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "kit_id": 7,
+      "parent_part_id": 8,
+      "child_part_id": 111,
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "kit_id": 7,
+      "parent_part_id": 8,
+      "child_part_id": 112,
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "kit_id": 7,
+      "parent_part_id": 8,
+      "child_part_id": 113,
+      "quantity": 4
+    },
+    {
+      "id": 11,
+      "kit_id": 84,
+      "parent_part_id": 114,
+      "child_part_id": 115,
+      "quantity": 4
+    },
+    {
+      "id": 12,
+      "kit_id": 84,
+      "parent_part_id": 114,
+      "child_part_id": 116,
+      "quantity": 3
+    },
+    {
+      "id": 13,
+      "kit_id": 84,
+      "parent_part_id": 114,
+      "child_part_id": 117,
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "kit_id": 84,
+      "parent_part_id": 114,
+      "child_part_id": 118,
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "kit_id": 84,
+      "parent_part_id": 114,
+      "child_part_id": 119,
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "kit_id": 85,
+      "parent_part_id": 120,
+      "child_part_id": 121,
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "kit_id": 85,
+      "parent_part_id": 120,
+      "child_part_id": 122,
+      "quantity": 2
+    },
+    {
+      "id": 18,
+      "kit_id": 86,
+      "parent_part_id": 123,
+      "child_part_id": 124,
+      "quantity": 2
+    },
+    {
+      "id": 19,
+      "kit_id": 86,
+      "parent_part_id": 123,
+      "child_part_id": 125,
+      "quantity": 2
+    }
+  ],
+  "compatibility": [
+    {
+      "id": 1,
+      "part_id": 1,
+      "model_id": 1
+    },
+    {
+      "id": 2,
+      "part_id": 1,
+      "model_id": 2
+    },
+    {
+      "id": 3,
+      "part_id": 2,
+      "model_id": 1
+    },
+    {
+      "id": 4,
+      "part_id": 2,
+      "model_id": 2
+    },
+    {
+      "id": 5,
+      "part_id": 3,
+      "model_id": 1
+    },
+    {
+      "id": 6,
+      "part_id": 3,
+      "model_id": 2
+    },
+    {
+      "id": 7,
+      "part_id": 4,
+      "model_id": 1
+    },
+    {
+      "id": 8,
+      "part_id": 4,
+      "model_id": 2
+    },
+    {
+      "id": 9,
+      "part_id": 5,
+      "model_id": 1
+    },
+    {
+      "id": 10,
+      "part_id": 5,
+      "model_id": 2
+    },
+    {
+      "id": 11,
+      "part_id": 6,
+      "model_id": 1
+    },
+    {
+      "id": 12,
+      "part_id": 6,
+      "model_id": 2
+    },
+    {
+      "id": 13,
+      "part_id": 7,
+      "model_id": 1
+    },
+    {
+      "id": 14,
+      "part_id": 7,
+      "model_id": 2
+    },
+    {
+      "id": 15,
+      "part_id": 8,
+      "model_id": 1
+    },
+    {
+      "id": 16,
+      "part_id": 8,
+      "model_id": 2
+    },
+    {
+      "id": 17,
+      "part_id": 9,
+      "model_id": 1
+    },
+    {
+      "id": 18,
+      "part_id": 9,
+      "model_id": 2
+    },
+    {
+      "id": 19,
+      "part_id": 10,
+      "model_id": 1
+    },
+    {
+      "id": 20,
+      "part_id": 10,
+      "model_id": 2
+    },
+    {
+      "id": 21,
+      "part_id": 11,
+      "model_id": 1
+    },
+    {
+      "id": 22,
+      "part_id": 11,
+      "model_id": 2
+    },
+    {
+      "id": 23,
+      "part_id": 12,
+      "model_id": 1
+    },
+    {
+      "id": 24,
+      "part_id": 12,
+      "model_id": 2
+    },
+    {
+      "id": 25,
+      "part_id": 13,
+      "model_id": 1
+    },
+    {
+      "id": 26,
+      "part_id": 13,
+      "model_id": 2
+    },
+    {
+      "id": 27,
+      "part_id": 14,
+      "model_id": 1
+    },
+    {
+      "id": 28,
+      "part_id": 14,
+      "model_id": 2
+    },
+    {
+      "id": 29,
+      "part_id": 15,
+      "model_id": 1
+    },
+    {
+      "id": 30,
+      "part_id": 15,
+      "model_id": 2
+    },
+    {
+      "id": 31,
+      "part_id": 16,
+      "model_id": 1
+    },
+    {
+      "id": 32,
+      "part_id": 16,
+      "model_id": 2
+    },
+    {
+      "id": 33,
+      "part_id": 17,
+      "model_id": 1
+    },
+    {
+      "id": 34,
+      "part_id": 17,
+      "model_id": 2
+    },
+    {
+      "id": 35,
+      "part_id": 18,
+      "model_id": 1
+    },
+    {
+      "id": 36,
+      "part_id": 18,
+      "model_id": 2
+    },
+    {
+      "id": 37,
+      "part_id": 19,
+      "model_id": 1
+    },
+    {
+      "id": 38,
+      "part_id": 19,
+      "model_id": 2
+    },
+    {
+      "id": 39,
+      "part_id": 20,
+      "model_id": 1
+    },
+    {
+      "id": 40,
+      "part_id": 20,
+      "model_id": 2
+    },
+    {
+      "id": 41,
+      "part_id": 21,
+      "model_id": 1
+    },
+    {
+      "id": 42,
+      "part_id": 21,
+      "model_id": 2
+    },
+    {
+      "id": 43,
+      "part_id": 22,
+      "model_id": 1
+    },
+    {
+      "id": 44,
+      "part_id": 22,
+      "model_id": 2
+    },
+    {
+      "id": 45,
+      "part_id": 23,
+      "model_id": 1
+    },
+    {
+      "id": 46,
+      "part_id": 23,
+      "model_id": 2
+    },
+    {
+      "id": 47,
+      "part_id": 24,
+      "model_id": 1
+    },
+    {
+      "id": 48,
+      "part_id": 24,
+      "model_id": 2
+    },
+    {
+      "id": 49,
+      "part_id": 25,
+      "model_id": 1
+    },
+    {
+      "id": 50,
+      "part_id": 25,
+      "model_id": 2
+    },
+    {
+      "id": 51,
+      "part_id": 26,
+      "model_id": 1
+    },
+    {
+      "id": 52,
+      "part_id": 26,
+      "model_id": 2
+    },
+    {
+      "id": 53,
+      "part_id": 27,
+      "model_id": 1
+    },
+    {
+      "id": 54,
+      "part_id": 27,
+      "model_id": 2
+    },
+    {
+      "id": 55,
+      "part_id": 28,
+      "model_id": 1
+    },
+    {
+      "id": 56,
+      "part_id": 28,
+      "model_id": 2
+    },
+    {
+      "id": 57,
+      "part_id": 29,
+      "model_id": 1
+    },
+    {
+      "id": 58,
+      "part_id": 29,
+      "model_id": 2
+    },
+    {
+      "id": 59,
+      "part_id": 30,
+      "model_id": 1
+    },
+    {
+      "id": 60,
+      "part_id": 30,
+      "model_id": 2
+    },
+    {
+      "id": 61,
+      "part_id": 31,
+      "model_id": 1
+    },
+    {
+      "id": 62,
+      "part_id": 31,
+      "model_id": 2
+    },
+    {
+      "id": 63,
+      "part_id": 32,
+      "model_id": 1
+    },
+    {
+      "id": 64,
+      "part_id": 32,
+      "model_id": 2
+    },
+    {
+      "id": 65,
+      "part_id": 33,
+      "model_id": 1
+    },
+    {
+      "id": 66,
+      "part_id": 33,
+      "model_id": 2
+    },
+    {
+      "id": 67,
+      "part_id": 34,
+      "model_id": 1
+    },
+    {
+      "id": 68,
+      "part_id": 34,
+      "model_id": 2
+    },
+    {
+      "id": 69,
+      "part_id": 35,
+      "model_id": 1
+    },
+    {
+      "id": 70,
+      "part_id": 35,
+      "model_id": 2
+    },
+    {
+      "id": 71,
+      "part_id": 36,
+      "model_id": 1
+    },
+    {
+      "id": 72,
+      "part_id": 36,
+      "model_id": 2
+    },
+    {
+      "id": 73,
+      "part_id": 37,
+      "model_id": 1
+    },
+    {
+      "id": 74,
+      "part_id": 37,
+      "model_id": 2
+    },
+    {
+      "id": 75,
+      "part_id": 38,
+      "model_id": 1
+    },
+    {
+      "id": 76,
+      "part_id": 38,
+      "model_id": 2
+    },
+    {
+      "id": 77,
+      "part_id": 39,
+      "model_id": 1
+    },
+    {
+      "id": 78,
+      "part_id": 39,
+      "model_id": 2
+    },
+    {
+      "id": 79,
+      "part_id": 40,
+      "model_id": 1
+    },
+    {
+      "id": 80,
+      "part_id": 40,
+      "model_id": 2
+    },
+    {
+      "id": 81,
+      "part_id": 41,
+      "model_id": 1
+    },
+    {
+      "id": 82,
+      "part_id": 41,
+      "model_id": 2
+    },
+    {
+      "id": 83,
+      "part_id": 42,
+      "model_id": 1
+    },
+    {
+      "id": 84,
+      "part_id": 42,
+      "model_id": 2
+    },
+    {
+      "id": 85,
+      "part_id": 43,
+      "model_id": 1
+    },
+    {
+      "id": 86,
+      "part_id": 43,
+      "model_id": 2
+    },
+    {
+      "id": 87,
+      "part_id": 44,
+      "model_id": 1
+    },
+    {
+      "id": 88,
+      "part_id": 44,
+      "model_id": 2
+    },
+    {
+      "id": 89,
+      "part_id": 45,
+      "model_id": 1
+    },
+    {
+      "id": 90,
+      "part_id": 45,
+      "model_id": 2
+    },
+    {
+      "id": 91,
+      "part_id": 46,
+      "model_id": 1
+    },
+    {
+      "id": 92,
+      "part_id": 46,
+      "model_id": 2
+    },
+    {
+      "id": 93,
+      "part_id": 47,
+      "model_id": 1
+    },
+    {
+      "id": 94,
+      "part_id": 47,
+      "model_id": 2
+    },
+    {
+      "id": 95,
+      "part_id": 48,
+      "model_id": 1
+    },
+    {
+      "id": 96,
+      "part_id": 48,
+      "model_id": 2
+    },
+    {
+      "id": 97,
+      "part_id": 49,
+      "model_id": 1
+    },
+    {
+      "id": 98,
+      "part_id": 49,
+      "model_id": 2
+    },
+    {
+      "id": 99,
+      "part_id": 50,
+      "model_id": 1
+    },
+    {
+      "id": 100,
+      "part_id": 50,
+      "model_id": 2
+    },
+    {
+      "id": 101,
+      "part_id": 51,
+      "model_id": 1
+    },
+    {
+      "id": 102,
+      "part_id": 51,
+      "model_id": 2
+    },
+    {
+      "id": 103,
+      "part_id": 52,
+      "model_id": 1
+    },
+    {
+      "id": 104,
+      "part_id": 52,
+      "model_id": 2
+    },
+    {
+      "id": 105,
+      "part_id": 53,
+      "model_id": 1
+    },
+    {
+      "id": 106,
+      "part_id": 53,
+      "model_id": 2
+    },
+    {
+      "id": 107,
+      "part_id": 54,
+      "model_id": 1
+    },
+    {
+      "id": 108,
+      "part_id": 54,
+      "model_id": 2
+    },
+    {
+      "id": 109,
+      "part_id": 55,
+      "model_id": 1
+    },
+    {
+      "id": 110,
+      "part_id": 55,
+      "model_id": 2
+    },
+    {
+      "id": 111,
+      "part_id": 56,
+      "model_id": 1
+    },
+    {
+      "id": 112,
+      "part_id": 56,
+      "model_id": 2
+    },
+    {
+      "id": 113,
+      "part_id": 57,
+      "model_id": 1
+    },
+    {
+      "id": 114,
+      "part_id": 57,
+      "model_id": 2
+    },
+    {
+      "id": 115,
+      "part_id": 58,
+      "model_id": 1
+    },
+    {
+      "id": 116,
+      "part_id": 58,
+      "model_id": 2
+    },
+    {
+      "id": 117,
+      "part_id": 59,
+      "model_id": 1
+    },
+    {
+      "id": 118,
+      "part_id": 59,
+      "model_id": 2
+    },
+    {
+      "id": 119,
+      "part_id": 60,
+      "model_id": 1
+    },
+    {
+      "id": 120,
+      "part_id": 60,
+      "model_id": 2
+    },
+    {
+      "id": 121,
+      "part_id": 61,
+      "model_id": 1
+    },
+    {
+      "id": 122,
+      "part_id": 61,
+      "model_id": 2
+    },
+    {
+      "id": 123,
+      "part_id": 62,
+      "model_id": 1
+    },
+    {
+      "id": 124,
+      "part_id": 62,
+      "model_id": 2
+    },
+    {
+      "id": 125,
+      "part_id": 63,
+      "model_id": 1
+    },
+    {
+      "id": 126,
+      "part_id": 63,
+      "model_id": 2
+    },
+    {
+      "id": 127,
+      "part_id": 64,
+      "model_id": 1
+    },
+    {
+      "id": 128,
+      "part_id": 64,
+      "model_id": 2
+    },
+    {
+      "id": 129,
+      "part_id": 65,
+      "model_id": 1
+    },
+    {
+      "id": 130,
+      "part_id": 65,
+      "model_id": 2
+    },
+    {
+      "id": 131,
+      "part_id": 66,
+      "model_id": 1
+    },
+    {
+      "id": 132,
+      "part_id": 66,
+      "model_id": 2
+    },
+    {
+      "id": 133,
+      "part_id": 67,
+      "model_id": 1
+    },
+    {
+      "id": 134,
+      "part_id": 67,
+      "model_id": 2
+    },
+    {
+      "id": 135,
+      "part_id": 68,
+      "model_id": 1
+    },
+    {
+      "id": 136,
+      "part_id": 68,
+      "model_id": 2
+    },
+    {
+      "id": 137,
+      "part_id": 69,
+      "model_id": 1
+    },
+    {
+      "id": 138,
+      "part_id": 69,
+      "model_id": 2
+    },
+    {
+      "id": 139,
+      "part_id": 70,
+      "model_id": 1
+    },
+    {
+      "id": 140,
+      "part_id": 70,
+      "model_id": 2
+    },
+    {
+      "id": 141,
+      "part_id": 71,
+      "model_id": 1
+    },
+    {
+      "id": 142,
+      "part_id": 71,
+      "model_id": 2
+    },
+    {
+      "id": 143,
+      "part_id": 72,
+      "model_id": 1
+    },
+    {
+      "id": 144,
+      "part_id": 72,
+      "model_id": 2
+    },
+    {
+      "id": 145,
+      "part_id": 73,
+      "model_id": 1
+    },
+    {
+      "id": 146,
+      "part_id": 73,
+      "model_id": 2
+    },
+    {
+      "id": 147,
+      "part_id": 74,
+      "model_id": 1
+    },
+    {
+      "id": 148,
+      "part_id": 74,
+      "model_id": 2
+    },
+    {
+      "id": 149,
+      "part_id": 75,
+      "model_id": 1
+    },
+    {
+      "id": 150,
+      "part_id": 75,
+      "model_id": 2
+    },
+    {
+      "id": 151,
+      "part_id": 76,
+      "model_id": 1
+    },
+    {
+      "id": 152,
+      "part_id": 76,
+      "model_id": 2
+    },
+    {
+      "id": 153,
+      "part_id": 77,
+      "model_id": 1
+    },
+    {
+      "id": 154,
+      "part_id": 77,
+      "model_id": 2
+    },
+    {
+      "id": 155,
+      "part_id": 78,
+      "model_id": 1
+    },
+    {
+      "id": 156,
+      "part_id": 78,
+      "model_id": 2
+    },
+    {
+      "id": 157,
+      "part_id": 79,
+      "model_id": 1
+    },
+    {
+      "id": 158,
+      "part_id": 79,
+      "model_id": 2
+    },
+    {
+      "id": 159,
+      "part_id": 80,
+      "model_id": 1
+    },
+    {
+      "id": 160,
+      "part_id": 80,
+      "model_id": 2
+    },
+    {
+      "id": 161,
+      "part_id": 81,
+      "model_id": 1
+    },
+    {
+      "id": 162,
+      "part_id": 81,
+      "model_id": 2
+    },
+    {
+      "id": 163,
+      "part_id": 82,
+      "model_id": 1
+    },
+    {
+      "id": 164,
+      "part_id": 82,
+      "model_id": 2
+    },
+    {
+      "id": 165,
+      "part_id": 83,
+      "model_id": 1
+    },
+    {
+      "id": 166,
+      "part_id": 83,
+      "model_id": 2
+    },
+    {
+      "id": 167,
+      "part_id": 84,
+      "model_id": 1
+    },
+    {
+      "id": 168,
+      "part_id": 84,
+      "model_id": 2
+    },
+    {
+      "id": 169,
+      "part_id": 85,
+      "model_id": 1
+    },
+    {
+      "id": 170,
+      "part_id": 85,
+      "model_id": 2
+    },
+    {
+      "id": 171,
+      "part_id": 86,
+      "model_id": 1
+    },
+    {
+      "id": 172,
+      "part_id": 86,
+      "model_id": 2
+    },
+    {
+      "id": 173,
+      "part_id": 87,
+      "model_id": 1
+    },
+    {
+      "id": 174,
+      "part_id": 87,
+      "model_id": 2
+    },
+    {
+      "id": 175,
+      "part_id": 88,
+      "model_id": 1
+    },
+    {
+      "id": 176,
+      "part_id": 88,
+      "model_id": 2
+    },
+    {
+      "id": 177,
+      "part_id": 89,
+      "model_id": 1
+    },
+    {
+      "id": 178,
+      "part_id": 89,
+      "model_id": 2
+    },
+    {
+      "id": 179,
+      "part_id": 90,
+      "model_id": 1
+    },
+    {
+      "id": 180,
+      "part_id": 90,
+      "model_id": 2
+    },
+    {
+      "id": 181,
+      "part_id": 91,
+      "model_id": 1
+    },
+    {
+      "id": 182,
+      "part_id": 91,
+      "model_id": 2
+    },
+    {
+      "id": 183,
+      "part_id": 92,
+      "model_id": 1
+    },
+    {
+      "id": 184,
+      "part_id": 92,
+      "model_id": 2
+    },
+    {
+      "id": 185,
+      "part_id": 93,
+      "model_id": 1
+    },
+    {
+      "id": 186,
+      "part_id": 93,
+      "model_id": 2
+    },
+    {
+      "id": 187,
+      "part_id": 94,
+      "model_id": 1
+    },
+    {
+      "id": 188,
+      "part_id": 94,
+      "model_id": 2
+    },
+    {
+      "id": 189,
+      "part_id": 94,
+      "model_id": 3
+    },
+    {
+      "id": 190,
+      "part_id": 94,
+      "model_id": 4
+    },
+    {
+      "id": 191,
+      "part_id": 95,
+      "model_id": 1
+    },
+    {
+      "id": 192,
+      "part_id": 95,
+      "model_id": 2
+    },
+    {
+      "id": 193,
+      "part_id": 95,
+      "model_id": 3
+    },
+    {
+      "id": 194,
+      "part_id": 95,
+      "model_id": 4
+    },
+    {
+      "id": 195,
+      "part_id": 96,
+      "model_id": 1
+    },
+    {
+      "id": 196,
+      "part_id": 96,
+      "model_id": 2
+    },
+    {
+      "id": 197,
+      "part_id": 97,
+      "model_id": 1
+    },
+    {
+      "id": 198,
+      "part_id": 97,
+      "model_id": 2
+    },
+    {
+      "id": 199,
+      "part_id": 98,
+      "model_id": 1
+    },
+    {
+      "id": 200,
+      "part_id": 98,
+      "model_id": 2
+    },
+    {
+      "id": 201,
+      "part_id": 99,
+      "model_id": 1
+    },
+    {
+      "id": 202,
+      "part_id": 99,
+      "model_id": 2
+    },
+    {
+      "id": 203,
+      "part_id": 100,
+      "model_id": 1
+    },
+    {
+      "id": 204,
+      "part_id": 100,
+      "model_id": 2
+    },
+    {
+      "id": 205,
+      "part_id": 101,
+      "model_id": 1
+    },
+    {
+      "id": 206,
+      "part_id": 101,
+      "model_id": 2
+    },
+    {
+      "id": 207,
+      "part_id": 102,
+      "model_id": 1
+    },
+    {
+      "id": 208,
+      "part_id": 102,
+      "model_id": 2
+    },
+    {
+      "id": 209,
+      "part_id": 103,
+      "model_id": 1
+    },
+    {
+      "id": 210,
+      "part_id": 103,
+      "model_id": 2
+    },
+    {
+      "id": 211,
+      "part_id": 103,
+      "model_id": 3
+    },
+    {
+      "id": 212,
+      "part_id": 103,
+      "model_id": 4
+    },
+    {
+      "id": 213,
+      "part_id": 104,
+      "model_id": 1
+    },
+    {
+      "id": 214,
+      "part_id": 104,
+      "model_id": 2
+    },
+    {
+      "id": 215,
+      "part_id": 104,
+      "model_id": 3
+    },
+    {
+      "id": 216,
+      "part_id": 104,
+      "model_id": 4
+    },
+    {
+      "id": 217,
+      "part_id": 105,
+      "model_id": 1
+    },
+    {
+      "id": 218,
+      "part_id": 105,
+      "model_id": 2
+    },
+    {
+      "id": 219,
+      "part_id": 105,
+      "model_id": 3
+    },
+    {
+      "id": 220,
+      "part_id": 105,
+      "model_id": 4
+    },
+    {
+      "id": 221,
+      "part_id": 106,
+      "model_id": 1
+    },
+    {
+      "id": 222,
+      "part_id": 106,
+      "model_id": 2
+    },
+    {
+      "id": 223,
+      "part_id": 106,
+      "model_id": 3
+    },
+    {
+      "id": 224,
+      "part_id": 106,
+      "model_id": 4
+    },
+    {
+      "id": 225,
+      "part_id": 107,
+      "model_id": 1
+    },
+    {
+      "id": 226,
+      "part_id": 107,
+      "model_id": 2
+    },
+    {
+      "id": 227,
+      "part_id": 107,
+      "model_id": 3
+    },
+    {
+      "id": 228,
+      "part_id": 107,
+      "model_id": 4
+    },
+    {
+      "id": 229,
+      "part_id": 108,
+      "model_id": 1
+    },
+    {
+      "id": 230,
+      "part_id": 108,
+      "model_id": 2
+    },
+    {
+      "id": 231,
+      "part_id": 109,
+      "model_id": 1
+    },
+    {
+      "id": 232,
+      "part_id": 109,
+      "model_id": 2
+    },
+    {
+      "id": 233,
+      "part_id": 109,
+      "model_id": 3
+    },
+    {
+      "id": 234,
+      "part_id": 109,
+      "model_id": 4
+    },
+    {
+      "id": 235,
+      "part_id": 110,
+      "model_id": 1
+    },
+    {
+      "id": 236,
+      "part_id": 110,
+      "model_id": 2
+    },
+    {
+      "id": 237,
+      "part_id": 111,
+      "model_id": 1
+    },
+    {
+      "id": 238,
+      "part_id": 111,
+      "model_id": 2
+    },
+    {
+      "id": 239,
+      "part_id": 112,
+      "model_id": 1
+    },
+    {
+      "id": 240,
+      "part_id": 112,
+      "model_id": 2
+    },
+    {
+      "id": 241,
+      "part_id": 113,
+      "model_id": 1
+    },
+    {
+      "id": 242,
+      "part_id": 113,
+      "model_id": 2
+    },
+    {
+      "id": 243,
+      "part_id": 114,
+      "model_id": 1
+    },
+    {
+      "id": 244,
+      "part_id": 114,
+      "model_id": 2
+    },
+    {
+      "id": 245,
+      "part_id": 115,
+      "model_id": 1
+    },
+    {
+      "id": 246,
+      "part_id": 115,
+      "model_id": 2
+    },
+    {
+      "id": 247,
+      "part_id": 116,
+      "model_id": 1
+    },
+    {
+      "id": 248,
+      "part_id": 116,
+      "model_id": 2
+    },
+    {
+      "id": 249,
+      "part_id": 117,
+      "model_id": 1
+    },
+    {
+      "id": 250,
+      "part_id": 117,
+      "model_id": 2
+    },
+    {
+      "id": 251,
+      "part_id": 118,
+      "model_id": 1
+    },
+    {
+      "id": 252,
+      "part_id": 118,
+      "model_id": 2
+    },
+    {
+      "id": 253,
+      "part_id": 119,
+      "model_id": 1
+    },
+    {
+      "id": 254,
+      "part_id": 119,
+      "model_id": 2
+    },
+    {
+      "id": 255,
+      "part_id": 120,
+      "model_id": 1
+    },
+    {
+      "id": 256,
+      "part_id": 120,
+      "model_id": 2
+    },
+    {
+      "id": 257,
+      "part_id": 121,
+      "model_id": 1
+    },
+    {
+      "id": 258,
+      "part_id": 121,
+      "model_id": 2
+    },
+    {
+      "id": 259,
+      "part_id": 122,
+      "model_id": 1
+    },
+    {
+      "id": 260,
+      "part_id": 122,
+      "model_id": 2
+    },
+    {
+      "id": 261,
+      "part_id": 123,
+      "model_id": 1
+    },
+    {
+      "id": 262,
+      "part_id": 123,
+      "model_id": 2
+    },
+    {
+      "id": 263,
+      "part_id": 124,
+      "model_id": 1
+    },
+    {
+      "id": 264,
+      "part_id": 124,
+      "model_id": 2
+    },
+    {
+      "id": 265,
+      "part_id": 125,
+      "model_id": 1
+    },
+    {
+      "id": 266,
+      "part_id": 125,
+      "model_id": 2
+    },
+    {
+      "id": 267,
+      "part_id": 126,
+      "model_id": 1
+    },
+    {
+      "id": 268,
+      "part_id": 126,
+      "model_id": 2
+    },
+    {
+      "id": 269,
+      "part_id": 127,
+      "model_id": 1
+    },
+    {
+      "id": 270,
+      "part_id": 127,
+      "model_id": 2
+    },
+    {
+      "id": 271,
+      "part_id": 128,
+      "model_id": 1
+    },
+    {
+      "id": 272,
+      "part_id": 128,
+      "model_id": 2
+    },
+    {
+      "id": 273,
+      "part_id": 129,
+      "model_id": 1
+    },
+    {
+      "id": 274,
+      "part_id": 129,
+      "model_id": 2
+    },
+    {
+      "id": 275,
+      "part_id": 129,
+      "model_id": 3
+    },
+    {
+      "id": 276,
+      "part_id": 129,
+      "model_id": 4
+    },
+    {
+      "id": 277,
+      "part_id": 130,
+      "model_id": 1
+    },
+    {
+      "id": 278,
+      "part_id": 130,
+      "model_id": 2
+    },
+    {
+      "id": 279,
+      "part_id": 131,
+      "model_id": 1
+    },
+    {
+      "id": 280,
+      "part_id": 131,
+      "model_id": 2
+    },
+    {
+      "id": 281,
+      "part_id": 132,
+      "model_id": 1
+    },
+    {
+      "id": 282,
+      "part_id": 132,
+      "model_id": 2
+    },
+    {
+      "id": 283,
+      "part_id": 133,
+      "model_id": 1
+    },
+    {
+      "id": 284,
+      "part_id": 133,
+      "model_id": 2
+    },
+    {
+      "id": 285,
+      "part_id": 134,
+      "model_id": 1
+    },
+    {
+      "id": 286,
+      "part_id": 134,
+      "model_id": 2
+    },
+    {
+      "id": 287,
+      "part_id": 135,
+      "model_id": 1
+    },
+    {
+      "id": 288,
+      "part_id": 135,
+      "model_id": 2
+    },
+    {
+      "id": 289,
+      "part_id": 136,
+      "model_id": 1
+    },
+    {
+      "id": 290,
+      "part_id": 136,
+      "model_id": 2
+    },
+    {
+      "id": 291,
+      "part_id": 137,
+      "model_id": 1
+    },
+    {
+      "id": 292,
+      "part_id": 137,
+      "model_id": 2
+    },
+    {
+      "id": 293,
+      "part_id": 138,
+      "model_id": 1
+    },
+    {
+      "id": 294,
+      "part_id": 138,
+      "model_id": 2
+    },
+    {
+      "id": 295,
+      "part_id": 139,
+      "model_id": 1
+    },
+    {
+      "id": 296,
+      "part_id": 139,
+      "model_id": 2
+    },
+    {
+      "id": 297,
+      "part_id": 140,
+      "model_id": 1
+    },
+    {
+      "id": 298,
+      "part_id": 140,
+      "model_id": 2
+    },
+    {
+      "id": 299,
+      "part_id": 141,
+      "model_id": 1
+    },
+    {
+      "id": 300,
+      "part_id": 141,
+      "model_id": 2
+    },
+    {
+      "id": 301,
+      "part_id": 142,
+      "model_id": 1
+    },
+    {
+      "id": 302,
+      "part_id": 142,
+      "model_id": 2
+    }
+  ],
+  "part_images": [
+    {
+      "id": 1,
+      "part_id": 1,
+      "image_url": "/images/parts/20k1010s.png"
+    },
+    {
+      "id": 2,
+      "part_id": 2,
+      "image_url": "/images/parts/20k1110s.png"
+    },
+    {
+      "id": 3,
+      "part_id": 3,
+      "image_url": "/images/parts/20k1120s.png"
+    },
+    {
+      "id": 4,
+      "part_id": 4,
+      "image_url": "/images/parts/20k710s.png"
+    },
+    {
+      "id": 5,
+      "part_id": 5,
+      "image_url": "/images/parts/20k810s.png"
+    },
+    {
+      "id": 6,
+      "part_id": 6,
+      "image_url": "/images/parts/20k910s.png"
+    },
+    {
+      "id": 7,
+      "part_id": 7,
+      "image_url": "/images/parts/40530-ktn-700.png"
+    },
+    {
+      "id": 8,
+      "part_id": 8,
+      "image_url": "/images/parts/21k180s.png"
+    },
+    {
+      "id": 9,
+      "part_id": 9,
+      "image_url": "/images/parts/21k200s.png"
+    },
+    {
+      "id": 10,
+      "part_id": 10,
+      "image_url": "/images/parts/21k220s.png"
+    },
+    {
+      "id": 11,
+      "part_id": 11,
+      "image_url": "/images/parts/21k260s.png"
+    },
+    {
+      "id": 12,
+      "part_id": 12,
+      "image_url": "/images/parts/21k280s.png"
+    },
+    {
+      "id": 13,
+      "part_id": 13,
+      "image_url": "/images/parts/22k130ls.png"
+    },
+    {
+      "id": 14,
+      "part_id": 14,
+      "image_url": "/images/parts/22k150s.png"
+    },
+    {
+      "id": 15,
+      "part_id": 15,
+      "image_url": "/images/parts/22k170s.png"
+    },
+    {
+      "id": 16,
+      "part_id": 16,
+      "image_url": "/images/parts/22k190s.png"
+    },
+    {
+      "id": 17,
+      "part_id": 17,
+      "image_url": "/images/parts/23k240ls.png"
+    },
+    {
+      "id": 18,
+      "part_id": 18,
+      "image_url": "/images/parts/24k150ls.png"
+    },
+    {
+      "id": 19,
+      "part_id": 19,
+      "image_url": "/images/parts/24k160s.png"
+    },
+    {
+      "id": 20,
+      "part_id": 20,
+      "image_url": "/images/parts/24k170s.png"
+    },
+    {
+      "id": 21,
+      "part_id": 21,
+      "image_url": "/images/parts/24k180s.png"
+    },
+    {
+      "id": 22,
+      "part_id": 22,
+      "image_url": "/images/parts/24k190s.png"
+    },
+    {
+      "id": 23,
+      "part_id": 23,
+      "image_url": "/images/parts/24k200s.png"
+    },
+    {
+      "id": 24,
+      "part_id": 24,
+      "image_url": "/images/parts/25k160s.png"
+    },
+    {
+      "id": 25,
+      "part_id": 25,
+      "image_url": "/images/parts/25k170s.png"
+    },
+    {
+      "id": 26,
+      "part_id": 26,
+      "image_url": "/images/parts/25k180s.png"
+    },
+    {
+      "id": 27,
+      "part_id": 27,
+      "image_url": "/images/parts/26k170ls.png"
+    },
+    {
+      "id": 28,
+      "part_id": 28,
+      "image_url": "/images/parts/91202-302-010.png"
+    },
+    {
+      "id": 29,
+      "part_id": 29,
+      "image_url": "/images/parts/91205-350-000.png"
+    },
+    {
+      "id": 30,
+      "part_id": 30,
+      "image_url": "/images/parts/91202-ge0-005.png"
+    },
+    {
+      "id": 31,
+      "part_id": 31,
+      "image_url": "/images/parts/91203-gb5-760.png"
+    },
+    {
+      "id": 32,
+      "part_id": 32,
+      "image_url": "/images/parts/91208-kb4-670.png"
+    },
+    {
+      "id": 33,
+      "part_id": 33,
+      "image_url": "/images/parts/26k180s.png"
+    },
+    {
+      "id": 34,
+      "part_id": 34,
+      "image_url": "/images/parts/91204-mc7-003.png"
+    },
+    {
+      "id": 35,
+      "part_id": 35,
+      "image_url": "/images/parts/91208-kph-901.png"
+    },
+    {
+      "id": 36,
+      "part_id": 36,
+      "image_url": "/images/parts/91204-kph-901.png"
+    },
+    {
+      "id": 37,
+      "part_id": 37,
+      "image_url": "/images/parts/26k210s.png"
+    },
+    {
+      "id": 38,
+      "part_id": 38,
+      "image_url": "/images/parts/26k220s.png"
+    },
+    {
+      "id": 39,
+      "part_id": 39,
+      "image_url": "/images/parts/26k230s.png"
+    },
+    {
+      "id": 40,
+      "part_id": 40,
+      "image_url": "/images/parts/26k240s.png"
+    },
+    {
+      "id": 41,
+      "part_id": 41,
+      "image_url": "/images/parts/91201-keh-910.png"
+    },
+    {
+      "id": 42,
+      "part_id": 42,
+      "image_url": "/images/parts/27k181s.png"
+    },
+    {
+      "id": 43,
+      "part_id": 43,
+      "image_url": "/images/parts/27k182s.png"
+    },
+    {
+      "id": 44,
+      "part_id": 44,
+      "image_url": "/images/parts/28k200s.png"
+    },
+    {
+      "id": 45,
+      "part_id": 45,
+      "image_url": "/images/parts/28k210s.png"
+    },
+    {
+      "id": 46,
+      "part_id": 46,
+      "image_url": "/images/parts/28k230s.png"
+    },
+    {
+      "id": 47,
+      "part_id": 47,
+      "image_url": "/images/parts/28k240s.png"
+    },
+    {
+      "id": 48,
+      "part_id": 48,
+      "image_url": "/images/parts/28k250s.png"
+    },
+    {
+      "id": 49,
+      "part_id": 49,
+      "image_url": "/images/parts/28k270s.png"
+    },
+    {
+      "id": 50,
+      "part_id": 50,
+      "image_url": "/images/parts/28k280s.png"
+    },
+    {
+      "id": 51,
+      "part_id": 51,
+      "image_url": "/images/parts/28k290s.png"
+    },
+    {
+      "id": 52,
+      "part_id": 52,
+      "image_url": "/images/parts/28k300s.png"
+    },
+    {
+      "id": 53,
+      "part_id": 53,
+      "image_url": "/images/parts/28k310s.png"
+    },
+    {
+      "id": 54,
+      "part_id": 54,
+      "image_url": "/images/parts/29k210s.png"
+    },
+    {
+      "id": 55,
+      "part_id": 55,
+      "image_url": "/images/parts/30k410s.png"
+    },
+    {
+      "id": 56,
+      "part_id": 56,
+      "image_url": "/images/parts/32k210s.png"
+    },
+    {
+      "id": 57,
+      "part_id": 57,
+      "image_url": "/images/parts/32k310s.png"
+    },
+    {
+      "id": 58,
+      "part_id": 58,
+      "image_url": "/images/parts/33k140s.png"
+    },
+    {
+      "id": 59,
+      "part_id": 59,
+      "image_url": "/images/parts/33k141s.png"
+    },
+    {
+      "id": 60,
+      "part_id": 60,
+      "image_url": "/images/parts/33k142s.png"
+    },
+    {
+      "id": 61,
+      "part_id": 61,
+      "image_url": "/images/parts/33k143s.png"
+    },
+    {
+      "id": 62,
+      "part_id": 62,
+      "image_url": "/images/parts/33k150s.png"
+    },
+    {
+      "id": 63,
+      "part_id": 63,
+      "image_url": "/images/parts/33k151s.png"
+    },
+    {
+      "id": 64,
+      "part_id": 64,
+      "image_url": "/images/parts/33k152s.png"
+    },
+    {
+      "id": 65,
+      "part_id": 65,
+      "image_url": "/images/parts/33k153s.png"
+    },
+    {
+      "id": 66,
+      "part_id": 66,
+      "image_url": "/images/parts/33k160s.png"
+    },
+    {
+      "id": 67,
+      "part_id": 67,
+      "image_url": "/images/parts/33k161s.png"
+    },
+    {
+      "id": 68,
+      "part_id": 68,
+      "image_url": "/images/parts/33k162s.png"
+    },
+    {
+      "id": 69,
+      "part_id": 69,
+      "image_url": "/images/parts/35k010s.png"
+    },
+    {
+      "id": 70,
+      "part_id": 70,
+      "image_url": "/images/parts/35k020s.png"
+    },
+    {
+      "id": 71,
+      "part_id": 71,
+      "image_url": "/images/parts/35k110s.png"
+    },
+    {
+      "id": 72,
+      "part_id": 72,
+      "image_url": "/images/parts/35k120s.png"
+    },
+    {
+      "id": 73,
+      "part_id": 73,
+      "image_url": "/images/parts/36k010s.png"
+    },
+    {
+      "id": 74,
+      "part_id": 74,
+      "image_url": "/images/parts/22201-kpm-850.png"
+    },
+    {
+      "id": 75,
+      "part_id": 75,
+      "image_url": "/images/parts/36k020s.png"
+    },
+    {
+      "id": 76,
+      "part_id": 76,
+      "image_url": "/images/parts/36k030s.png"
+    },
+    {
+      "id": 77,
+      "part_id": 77,
+      "image_url": "/images/parts/37k030s.png"
+    },
+    {
+      "id": 78,
+      "part_id": 78,
+      "image_url": "/images/parts/37k040s.png"
+    },
+    {
+      "id": 79,
+      "part_id": 79,
+      "image_url": "/images/parts/38k040s.png"
+    },
+    {
+      "id": 80,
+      "part_id": 80,
+      "image_url": "/images/parts/38k050s.png"
+    },
+    {
+      "id": 81,
+      "part_id": 81,
+      "image_url": "/images/parts/38k070s.png"
+    },
+    {
+      "id": 82,
+      "part_id": 82,
+      "image_url": "/images/parts/splendor.png"
+    },
+    {
+      "id": 83,
+      "part_id": 83,
+      "image_url": "/images/parts/91302-kev-900.png"
+    },
+    {
+      "id": 84,
+      "part_id": 84,
+      "image_url": "/images/parts/cylinder.png"
+    },
+    {
+      "id": 85,
+      "part_id": 85,
+      "image_url": "/images/parts/element.png"
+    },
+    {
+      "id": 86,
+      "part_id": 86,
+      "image_url": "/images/parts/protector.png"
+    },
+    {
+      "id": 87,
+      "part_id": 87,
+      "image_url": "/images/parts/glamour.png"
+    },
+    {
+      "id": 88,
+      "part_id": 88,
+      "image_url": "/images/parts/friction.png"
+    },
+    {
+      "id": 89,
+      "part_id": 89,
+      "image_url": "/images/parts/sprocket.png"
+    },
+    {
+      "id": 90,
+      "part_id": 90,
+      "image_url": "/images/parts/40530-abz-00099.png"
+    },
+    {
+      "id": 91,
+      "part_id": 91,
+      "image_url": "/images/parts/50618-ke8-000.png"
+    },
+    {
+      "id": 92,
+      "part_id": 92,
+      "image_url": "/images/parts/pillion.png"
+    },
+    {
+      "id": 93,
+      "part_id": 93,
+      "image_url": "/images/parts/cushion.png"
+    },
+    {
+      "id": 94,
+      "part_id": 94,
+      "image_url": "/images/parts/91202-ksp-911.png"
+    },
+    {
+      "id": 95,
+      "part_id": 95,
+      "image_url": "/images/parts/91203-ksp-910.png"
+    },
+    {
+      "id": 96,
+      "part_id": 96,
+      "image_url": "/images/parts/passion.png"
+    },
+    {
+      "id": 97,
+      "part_id": 97,
+      "image_url": "/images/parts/90701-gf6-000.png"
+    },
+    {
+      "id": 98,
+      "part_id": 98,
+      "image_url": "/images/parts/91001-ktc-900.png"
+    },
+    {
+      "id": 99,
+      "part_id": 99,
+      "image_url": "/images/parts/bearing.png"
+    },
+    {
+      "id": 100,
+      "part_id": 100,
+      "image_url": "/images/parts/90755-229-000.png"
+    },
+    {
+      "id": 101,
+      "part_id": 101,
+      "image_url": "/images/parts/90753-029-000.png"
+    },
+    {
+      "id": 102,
+      "part_id": 102,
+      "image_url": "/images/parts/beading.png"
+    },
+    {
+      "id": 103,
+      "part_id": 103,
+      "image_url": "/images/parts/12101-ksp-910a.png"
+    },
+    {
+      "id": 104,
+      "part_id": 104,
+      "image_url": "/images/parts/12100-ksp-910.png"
+    },
+    {
+      "id": 105,
+      "part_id": 105,
+      "image_url": "/images/parts/13101-ksp-910.png"
+    },
+    {
+      "id": 106,
+      "part_id": 106,
+      "image_url": "/images/parts/13011-ksp-910.png"
+    },
+    {
+      "id": 107,
+      "part_id": 107,
+      "image_url": "/images/parts/13111-ksp-910.png"
+    },
+    {
+      "id": 108,
+      "part_id": 108,
+      "image_url": "/images/parts/94601-15000.png"
+    },
+    {
+      "id": 109,
+      "part_id": 109,
+      "image_url": "/images/parts/12191-ksp-910.png"
+    },
+    {
+      "id": 110,
+      "part_id": 110,
+      "image_url": "/images/parts/40530-kcc-900.png"
+    },
+    {
+      "id": 111,
+      "part_id": 111,
+      "image_url": "/images/parts/23801-kcc-900.png"
+    },
+    {
+      "id": 112,
+      "part_id": 112,
+      "image_url": "/images/parts/41201-kcc-900.png"
+    },
+    {
+      "id": 113,
+      "part_id": 113,
+      "image_url": "/images/parts/90128-kcc-900.png"
+    },
+    {
+      "id": 114,
+      "part_id": 114,
+      "image_url": "/images/parts/22201-kcc-900s.png"
+    },
+    {
+      "id": 115,
+      "part_id": 115,
+      "image_url": "/images/parts/22201-kcc-900.png"
+    },
+    {
+      "id": 116,
+      "part_id": 116,
+      "image_url": "/images/parts/22311-kcc-900.png"
+    },
+    {
+      "id": 117,
+      "part_id": 117,
+      "image_url": "/images/parts/22351-kcc-900.png"
+    },
+    {
+      "id": 118,
+      "part_id": 118,
+      "image_url": "/images/parts/22120-kcc-900.png"
+    },
+    {
+      "id": 119,
+      "part_id": 119,
+      "image_url": "/images/parts/22121-kcc-900.png"
+    },
+    {
+      "id": 120,
+      "part_id": 120,
+      "image_url": "/images/parts/06430-kcc-900.png"
+    },
+    {
+      "id": 121,
+      "part_id": 121,
+      "image_url": "/images/parts/43125-kcc-900.png"
+    },
+    {
+      "id": 122,
+      "part_id": 122,
+      "image_url": "/images/parts/45133-kcc-900.png"
+    },
+    {
+      "id": 123,
+      "part_id": 123,
+      "image_url": "/images/parts/51490-kcc-900.png"
+    },
+    {
+      "id": 124,
+      "part_id": 124,
+      "image_url": "/images/parts/51490-kft-900.png"
+    },
+    {
+      "id": 125,
+      "part_id": 125,
+      "image_url": "/images/parts/51490-kft-901.png"
+    },
+    {
+      "id": 126,
+      "part_id": 126,
+      "image_url": "/images/parts/98056-57718.png"
+    },
+    {
+      "id": 127,
+      "part_id": 127,
+      "image_url": "/images/parts/17211-kcc-900.png"
+    },
+    {
+      "id": 128,
+      "part_id": 128,
+      "image_url": "/images/parts/16100-kcc-900.png"
+    },
+    {
+      "id": 129,
+      "part_id": 129,
+      "image_url": "/images/parts/45251-ksp-900.png"
+    },
+    {
+      "id": 130,
+      "part_id": 130,
+      "image_url": "/images/parts/52400-kcc-900.png"
+    },
+    {
+      "id": 131,
+      "part_id": 131,
+      "image_url": "/images/parts/31500-kcc-900.png"
+    },
+    {
+      "id": 132,
+      "part_id": 132,
+      "image_url": "/images/parts/18391-kcc-900.png"
+    },
+    {
+      "id": 133,
+      "part_id": 133,
+      "image_url": "/images/parts/18300-kcc-900.png"
+    },
+    {
+      "id": 134,
+      "part_id": 134,
+      "image_url": "/images/parts/32100-kcc-900.png"
+    },
+    {
+      "id": 135,
+      "part_id": 135,
+      "image_url": "/images/parts/35010-kcc-900.png"
+    },
+    {
+      "id": 136,
+      "part_id": 136,
+      "image_url": "/images/parts/42711-kcc-900.png"
+    },
+    {
+      "id": 137,
+      "part_id": 137,
+      "image_url": "/images/parts/44711-kcc-900.png"
+    },
+    {
+      "id": 138,
+      "part_id": 138,
+      "image_url": "/images/parts/83500-kcc-900.png"
+    },
+    {
+      "id": 139,
+      "part_id": 139,
+      "image_url": "/images/parts/83600-kcc-900.png"
+    },
+    {
+      "id": 140,
+      "part_id": 140,
+      "image_url": "/images/parts/50100-kcc-900.png"
+    },
+    {
+      "id": 141,
+      "part_id": 141,
+      "image_url": "/images/parts/52110-kcc-900.png"
+    },
+    {
+      "id": 142,
+      "part_id": 142,
+      "image_url": "/images/parts/50500-kcc-900.png"
+    }
+  ]
+}

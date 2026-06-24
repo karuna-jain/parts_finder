@@ -1,0 +1,143 @@
+id,part_number,name,normalized_name,category,system_id,confidence,mrp,quantity,is_kit,description
+1,20K1010S,CHAIN SPROCKET KIT,Chain Sprocket Kit,Transmission,4,0.95,970.0,10,True,Extracted Chain Sprocket Kit genuine part.
+2,20K1110S,CHAIN SPROCKET KIT (HF DWN / HF DLX),Chain Sprocket Kit (hf Dwn / Hf Dlx),Transmission,4,0.95,770.0,10,True,Extracted Chain Sprocket Kit (hf Dwn / Hf Dlx) genuine part.
+3,20K1120S,CHAIN SPROCKET KIT (HF-DAWN NEW),Chain Sprocket Kit (hf-dawn New),Transmission,4,0.95,770.0,10,True,Extracted Chain Sprocket Kit (hf-dawn New) genuine part.
+4,20K710S,CHAIN SPROCKET KIT (SUP. SPLENDOR),Chain Sprocket Kit (sup. Splendor),Transmission,4,0.95,650.0,10,True,Extracted Chain Sprocket Kit (sup. Splendor) genuine part.
+5,20K810S,CHAIN SPROCKET KIT-,Chain Sprocket Kit-,Transmission,4,0.95,675.0,10,True,Extracted Chain Sprocket Kit- genuine part.
+6,20K910S,CHAIN SPROCKET KIT (ACHIEVER),Chain Sprocket Kit (achiever),Transmission,4,0.95,770.0,10,True,Extracted Chain Sprocket Kit (achiever) genuine part.
+7,40530-KTN-700,"CHAIN, DRIVE, 428H -","Chain, Drive, 428h -",Transmission,4,0.85,1.0,120,False,"Extracted Chain, Drive, 428h - genuine part."
+8,21K180S,CYLINDER STD KIT,Cylinder Std Kit,Engine,1,0.95,3350.0,6,True,Extracted Cylinder Std Kit genuine part.
+9,21K200S,CYLINDER KIT (GLAMOUR),Cylinder Kit (glamour),Engine,1,0.95,2950.0,6,True,Extracted Cylinder Kit (glamour) genuine part.
+10,21K220S,CYLINDER KIT (PASSION PRO),Cylinder Kit (passion Pro),Engine,1,0.95,2670.0,6,True,Extracted Cylinder Kit (passion Pro) genuine part.
+11,21K260S,CYLINDER KIT (ACHIEVER NEW),Cylinder Kit (achiever New),Engine,1,0.95,3350.0,1,True,Extracted Cylinder Kit (achiever New) genuine part.
+12,21K280S,CYLINDER KIT (HUNK NEW),Cylinder Kit (hunk New),Engine,1,0.95,3350.0,1,True,Extracted Cylinder Kit (hunk New) genuine part.
+13,22K130LS,CAM.CHAIN KIT,Cam.chain Kit,Transmission,4,0.85,425.0,50,True,Extracted Cam.chain Kit genuine part.
+14,22K150S,CAM CHAIN KIT (SUPER SPLENDOR),Cam Chain Kit (super Splendor),Transmission,4,0.85,650.0,10,True,Extracted Cam Chain Kit (super Splendor) genuine part.
+15,22K170S,CAM.CHAIN KIT,Cam.chain Kit,Transmission,4,0.85,750.0,1,True,Extracted Cam.chain Kit genuine part.
+16,22K190S,CAM CHAIN KIT (KARIZMA ZMR),Cam Chain Kit (karizma Zmr),Transmission,4,0.85,1250.0,1,True,Extracted Cam Chain Kit (karizma Zmr) genuine part.
+17,23K240LS,CON ROD KIT (SPLENDOR),Con Rod Kit (splendor),Chassis,9,0.5,610.0,20,True,Extracted Con Rod Kit (splendor) genuine part.
+18,24K150LS,VALVE KIT,Valve Kit,Engine,1,0.9,370.0,100,True,Extracted Valve Kit genuine part.
+19,24K160S,VALVE KIT (SUPER SPLENDOR),Valve Kit (super Splendor),Engine,1,0.9,375.0,50,True,Extracted Valve Kit (super Splendor) genuine part.
+20,24K170S,VALVE KIT,Valve Kit,Engine,1,0.9,455.0,10,True,Extracted Valve Kit genuine part.
+21,24K180S,VALVE KIT (KARIZMA),Valve Kit (karizma),Engine,1,0.9,600.0,1,True,Extracted Valve Kit (karizma) genuine part.
+22,24K190S,VALVE KIT (PLEASURE),Valve Kit (pleasure),Engine,1,0.9,475.0,10,True,Extracted Valve Kit (pleasure) genuine part.
+23,24K200S,VALVE KIT (ACHIEVER NEW),Valve Kit (achiever New),Engine,1,0.9,440.0,1,True,Extracted Valve Kit (achiever New) genuine part.
+24,25K160S,BALL RACES KIT,Ball Races Kit,Chassis,9,0.5,290.0,50,True,Extracted Ball Races Kit genuine part.
+25,25K170S,BALL RACES KIT (ACHR/GLMR),Ball Races Kit (achr/glmr),Chassis,9,0.5,380.0,50,True,Extracted Ball Races Kit (achr/glmr) genuine part.
+26,25K180S,BALL RACE KIT (PLEASURE),Ball Race Kit (pleasure),Chassis,9,0.5,380.0,20,True,Extracted Ball Race Kit (pleasure) genuine part.
+27,26K170LS,OIL SEAL KIT,Oil Seal Kit,Chassis,9,0.5,96.0,100,True,Extracted Oil Seal Kit genuine part.
+28,91202-302-010,"OIL SEAL, 13.8 X 24 X","Oil Seal, 13.8 X 24 X",Chassis,9,0.5,1.0,5,False,"Extracted Oil Seal, 13.8 X 24 X genuine part."
+29,91205-350-000,"OIL SEAL , 6 X 25 X","Oil Seal , 6 X 25 X",Chassis,9,0.5,1.0,6,False,"Extracted Oil Seal , 6 X 25 X genuine part."
+30,91202-GE0-005,"OIL SEAL ,18.9 X 30 X","Oil Seal ,18.9 X 30 X",Chassis,9,0.5,1.0,5,False,"Extracted Oil Seal ,18.9 X 30 X genuine part."
+31,91203-GB5-760,"OIL SEAL, 17 X 29 X","Oil Seal, 17 X 29 X",Chassis,9,0.5,1.0,5,False,"Extracted Oil Seal, 17 X 29 X genuine part."
+32,91208-KB4-670,"OIL SEAL, 11.6 X 24 X","Oil Seal, 11.6 X 24 X",Chassis,9,0.5,1.0,10,False,"Extracted Oil Seal, 11.6 X 24 X genuine part."
+33,26K180S,OIL SEAL KIT (SUPER SPLENDOR),Oil Seal Kit (super Splendor),Chassis,9,0.5,34.5,50,True,Extracted Oil Seal Kit (super Splendor) genuine part.
+34,91204-MC7-003,"OIL SEAL, 16 X 28 X","Oil Seal, 16 X 28 X",Chassis,9,0.5,1.0,7,False,"Extracted Oil Seal, 16 X 28 X genuine part."
+35,91208-KPH-901,"OIL SEAL, 11.6 X 24 X","Oil Seal, 11.6 X 24 X",Chassis,9,0.5,1.0,10,False,"Extracted Oil Seal, 11.6 X 24 X genuine part."
+36,91204-KPH-901,"OIL SEAL, 17 X 30 X","Oil Seal, 17 X 30 X",Chassis,9,0.5,1.0,5,False,"Extracted Oil Seal, 17 X 30 X genuine part."
+37,26K210S,OIL SEAL KIT (HF DLX / SPL NXG SELF STAR,Oil Seal Kit (hf Dlx / Spl Nxg Self Star,Chassis,9,0.5,171.0,1,True,Extracted Oil Seal Kit (hf Dlx / Spl Nxg Self Star genuine part.
+38,26K220S,OIL SEAL KIT (PASSION PRO),Oil Seal Kit (passion Pro),Chassis,9,0.5,166.0,10,True,Extracted Oil Seal Kit (passion Pro) genuine part.
+39,26K230S,OIL SEAL KIT (PLEASURE),Oil Seal Kit (pleasure),Chassis,9,0.5,170.0,10,True,Extracted Oil Seal Kit (pleasure) genuine part.
+40,26K240S,OIL SEAL KIT (KARIZMA ZMR),Oil Seal Kit (karizma Zmr),Chassis,9,0.5,62.0,1,True,Extracted Oil Seal Kit (karizma Zmr) genuine part.
+41,91201-KEH-910,"OIL SEAL, 12 X 22 X","Oil Seal, 12 X 22 X",Chassis,9,0.5,1.0,5,False,"Extracted Oil Seal, 12 X 22 X genuine part."
+42,27K181S,CYLINDER HEAD O-RING KIT,Cylinder Head O-ring Kit,Engine,1,0.95,49.0,100,True,Extracted Cylinder Head O-ring Kit genuine part.
+43,27K182S,STATOR PLATE O-RING KIT,Stator Plate O-ring Kit,Electrical,3,0.95,55.0,200,True,Extracted Stator Plate O-ring Kit genuine part.
+44,28K200S,GASKET KIT (SUPER SPLENDOR - KICK),Gasket Kit (super Splendor - Kick),Chassis,9,0.5,224.0,1,True,Extracted Gasket Kit (super Splendor - Kick) genuine part.
+45,28K210S,GASKET KIT (SUPER SPLENDOR - SELF),Gasket Kit (super Splendor - Self),Chassis,9,0.5,210.0,10,True,Extracted Gasket Kit (super Splendor - Self) genuine part.
+46,28K230S,GASKET KIT,Gasket Kit,Chassis,9,0.5,301.0,10,True,Extracted Gasket Kit genuine part.
+47,28K240S,GASKET KIT (HF DWN /HF DLX),Gasket Kit (hf Dwn /hf Dlx),Chassis,9,0.5,435.0,1,True,Extracted Gasket Kit (hf Dwn /hf Dlx) genuine part.
+48,28K250S,GASKET KIT,Gasket Kit,Chassis,9,0.5,495.0,1,True,Extracted Gasket Kit genuine part.
+49,28K270S,GASKET KIT (SPL+ CW),Gasket Kit (spl+ Cw),Chassis,9,0.5,340.0,1,True,Extracted Gasket Kit (spl+ Cw) genuine part.
+50,28K280S,GASKET KIT (SPLENDOR+ NEW),Gasket Kit (splendor+ New),Chassis,9,0.5,630.0,1,True,Extracted Gasket Kit (splendor+ New) genuine part.
+51,28K290S,GASKET KIT (HF-DAWN NEW),Gasket Kit (hf-dawn New),Chassis,9,0.5,435.0,1,True,Extracted Gasket Kit (hf-dawn New) genuine part.
+52,28K300S,GASKET KIT (ACHIEVER NEW),Gasket Kit (achiever New),Chassis,9,0.5,280.0,1,True,Extracted Gasket Kit (achiever New) genuine part.
+53,28K310S,GASKET KIT (KARIZMA ZMR),Gasket Kit (karizma Zmr),Chassis,9,0.5,558.0,1,True,Extracted Gasket Kit (karizma Zmr) genuine part.
+54,29K210S,SPEEDOMETER DRIVE KIT,Speedometer Drive Kit,Chassis,9,0.5,47.0,200,True,Extracted Speedometer Drive Kit genuine part.
+55,30K410S,CHAIN COVER KIT,Chain Cover Kit,Transmission,4,0.85,420.0,1,True,Extracted Chain Cover Kit genuine part.
+56,32K210S,NIPPLE & SPOKE KIT RR.,Nipple & Spoke Kit Rear.,Wheels & Tyres,7,0.8,252.0,10,True,Extracted Nipple & Spoke Kit Rear. genuine part.
+57,32K310S,NIPPLE & SPOKE KIT FR.,Nipple & Spoke Kit Front.,Wheels & Tyres,7,0.8,252.0,10,True,Extracted Nipple & Spoke Kit Front. genuine part.
+58,33K140S,PISTON RING KIT STD (Y2K),Piston Ring Kit Std (y2k),Engine,1,0.95,700.0,1,True,Extracted Piston Ring Kit Std (y2k) genuine part.
+59,33K141S,PISTON RING KIT I-OVER SIZE (Y2K),Piston Ring Kit I-over Size (y2k),Engine,1,0.95,675.0,1,True,Extracted Piston Ring Kit I-over Size (y2k) genuine part.
+60,33K142S,PISTON RING KIT II-OVER SIZE (Y2K),Piston Ring Kit Ii-over Size (y2k),Engine,1,0.95,675.0,1,True,Extracted Piston Ring Kit Ii-over Size (y2k) genuine part.
+61,33K143S,PISTON RING KIT(III-OVER SIZE),Piston Ring Kit(iii-over Size),Engine,1,0.95,675.0,1,True,Extracted Piston Ring Kit(iii-over Size) genuine part.
+62,33K150S,PISTON RING KIT(STD),Piston Ring Kit(std),Engine,1,0.95,620.0,1,True,Extracted Piston Ring Kit(std) genuine part.
+63,33K151S,PISTON RING KIT(I-OVER SIZE),Piston Ring Kit(i-over Size),Engine,1,0.95,630.0,10,True,Extracted Piston Ring Kit(i-over Size) genuine part.
+64,33K152S,PISTON RING KIT(II-OVER SIZE),Piston Ring Kit(ii-over Size),Engine,1,0.95,625.0,10,True,Extracted Piston Ring Kit(ii-over Size) genuine part.
+65,33K153S,PISTON RING KIT(III-OVER SIZE),Piston Ring Kit(iii-over Size),Engine,1,0.95,600.0,1,True,Extracted Piston Ring Kit(iii-over Size) genuine part.
+66,33K160S,PISTON RING KIT(STD),Piston Ring Kit(std),Engine,1,0.95,630.0,1,True,Extracted Piston Ring Kit(std) genuine part.
+67,33K161S,PISTON RING KIT(I-OVER SIZE),Piston Ring Kit(i-over Size),Engine,1,0.95,650.0,1,True,Extracted Piston Ring Kit(i-over Size) genuine part.
+68,33K162S,PISTON RING KIT(II-OVER SIZE),Piston Ring Kit(ii-over Size),Engine,1,0.95,600.0,1,True,Extracted Piston Ring Kit(ii-over Size) genuine part.
+69,35K010S,STEP R KIT,Step R Kit,Chassis,9,0.5,170.0,20,True,Extracted Step R Kit genuine part.
+70,35K020S,STEP R KIT,Step R Kit,Chassis,9,0.5,170.0,20,True,Extracted Step R Kit genuine part.
+71,35K110S,STEP L KIT,Step L Kit,Chassis,9,0.5,170.0,20,True,Extracted Step L Kit genuine part.
+72,35K120S,STEP L KIT,Step L Kit,Chassis,9,0.5,170.0,20,True,Extracted Step L Kit genuine part.
+73,36K010S,DISC CLUTCH FRICTION KIT - KARIZMA,Disc Clutch Friction Kit - Karizma,Transmission,4,0.9,1455.0,1,True,Extracted Disc Clutch Friction Kit - Karizma genuine part.
+74,22201-KPM-850,"DISK,CLUTCH FRICTION,4 X 8 X","Disk,clutch Friction,4 X 8 X",Transmission,4,0.9,3.0,45,False,"Extracted Disk,clutch Friction,4 X 8 X genuine part."
+75,36K020S,DISC CLUTCH FRICTION KIT - SUP. SPL / GL,Disc Clutch Friction Kit - Sup. Spl / Gl,Transmission,4,0.9,570.0,20,True,Extracted Disc Clutch Friction Kit - Sup. Spl / Gl genuine part.
+76,36K030S,DISC CLUTCH FRICTION KIT - ACHIEVER,Disc Clutch Friction Kit - Achiever,Transmission,4,0.9,1338.0,10,True,Extracted Disc Clutch Friction Kit - Achiever genuine part.
+77,37K030S,SIDE STAND KIT (PLEASURE),Side Stand Kit (pleasure),Chassis,9,0.9,170.0,1,True,Extracted Side Stand Kit (pleasure) genuine part.
+78,37K040S,STEP SARI KIT (PLEASURE),Step Sari Kit (pleasure),Chassis,9,0.5,670.0,2,True,Extracted Step Sari Kit (pleasure) genuine part.
+79,38K040S,GLOVE BOX KIT,Glove Box Kit,Chassis,9,0.5,903.0,1,True,Extracted Glove Box Kit genuine part.
+80,38K050S,GLOVE BOX KIT,Glove Box Kit,Chassis,9,0.5,955.0,1,True,Extracted Glove Box Kit genuine part.
+81,38K070S,STEP SARI KIT,Step Sari Kit,Chassis,9,0.5,654.0,2,True,Extracted Step Sari Kit genuine part.
+82,SPLENDOR,- SELF),- Self),Chassis,9,0.5,220.0,10,True,Extracted - Self) genuine part.
+83,91302-KEV-900,"O-RING, 30.8 X","O-ring, 30.8 X",Chassis,9,0.5,2.0,3,False,"Extracted O-ring, 30.8 X genuine part."
+84,CYLINDER,STD KIT,Std Kit,Chassis,9,0.5,2577.0,1,True,Extracted Std Kit genuine part.
+85,ELEMENT,AIR CLEANER KIT,Air Cleaner Kit,Chassis,9,0.5,100.0,50,True,Extracted Air Cleaner Kit genuine part.
+86,PROTECTOR,MUFFLER MOUNTING,Muffler Mounting,Exhaust,10,0.95,40.0,1,True,Extracted Muffler Mounting genuine part.
+87,GLAMOUR,I3S IBS,I3s Ibs,Chassis,9,0.5,835.0,1,True,Extracted I3s Ibs genuine part.
+88,FRICTION,KIT - KARIZMA,Kit - Karizma,Chassis,9,0.5,1550.0,1,True,Extracted Kit - Karizma genuine part.
+89,SPROCKET,KIT,Kit,Chassis,9,0.5,795.0,1,True,Extracted Kit genuine part.
+90,40530-ABZ-00099,CHAIN DRIVE 520H,Chain Drive 520h,Transmission,4,0.85,1.0,108,False,Extracted Chain Drive 520h genuine part.
+91,50618-KE8-000,"COLLAR, 6.5 X 11 X","Collar, 6.5 X 11 X",Chassis,9,0.5,1.0,3,False,"Extracted Collar, 6.5 X 11 X genuine part."
+92,PILLION,L STEP,L Step,Chassis,9,0.5,244.5,1,True,Extracted L Step genuine part.
+93,CUSHION,BUSH,Bush,Chassis,9,0.5,88.0,10,True,Extracted Bush genuine part.
+94,91202-KSP-911,"OIL SEAL, 12 X 18 X","Oil Seal, 12 X 18 X",Chassis,9,0.5,1.0,4,False,"Extracted Oil Seal, 12 X 18 X genuine part."
+95,91203-KSP-910,"OIL SEAL, 14 X 22 X","Oil Seal, 14 X 22 X",Chassis,9,0.5,1.0,5,False,"Extracted Oil Seal, 14 X 22 X genuine part."
+96,PASSION,PRO),Pro),Chassis,9,0.5,155.0,20,True,Extracted Pro) genuine part.
+97,90701-GF6-000,"PIN, DOWEL, 8 X","Pin, Dowel, 8 X",Chassis,9,0.5,4.0,14,False,"Extracted Pin, Dowel, 8 X genuine part."
+98,91001-KTC-900,"BRG. ROLLER, 22 X 58 X","Bearing. Roller, 22 X 58 X",Chassis,9,0.5,1.0,17,False,"Extracted Bearing. Roller, 22 X 58 X genuine part."
+99,BEARING,KIT,Kit,Chassis,9,0.5,505.0,1,True,Extracted Kit genuine part.
+100,90755-229-000,"OIL SEAL, 21 X 37 X","Oil Seal, 21 X 37 X",Chassis,9,0.5,1.0,7,False,"Extracted Oil Seal, 21 X 37 X genuine part."
+101,90753-029-000,"OIL SEAL, 27 X 40 X","Oil Seal, 27 X 40 X",Chassis,9,0.5,1.0,6,False,"Extracted Oil Seal, 27 X 40 X genuine part."
+102,BEADING,ASSY,Assembly,Chassis,9,0.5,1999.0,5,True,Extracted Assembly genuine part.
+103,12101-KSP-910A,Cylinder Piston Kit,Cylinder Piston Kit,Engine,1,0.95,2450.0,1,True,Genuine Cylinder Piston Kit motorcycle part.
+104,12100-KSP-910,Cylinder Block,Cylinder Block,Engine,1,0.95,1850.0,1,False,Genuine Cylinder Block motorcycle part.
+105,13101-KSP-910,Piston COMP,Piston Complete,Engine,1,0.95,450.0,1,False,Genuine Piston Complete motorcycle part.
+106,13011-KSP-910,Piston Ring Set,Piston Ring Set,Engine,1,0.95,280.0,1,False,Genuine Piston Ring Set motorcycle part.
+107,13111-KSP-910,Piston Pin,Piston Pin,Engine,1,0.95,60.0,1,False,Genuine Piston Pin motorcycle part.
+108,94601-15000,Piston Pin Clip 15mm,Piston Pin Clip 15mm,Engine,1,0.95,5.0,2,False,Genuine Piston Pin Clip 15mm motorcycle part.
+109,12191-KSP-910,Cylinder Gasket,Cylinder Gasket,Engine,1,0.95,40.0,1,False,Genuine Cylinder Gasket motorcycle part.
+110,40530-KCC-900,Drive Chain 428-108L,Drive Chain 428-108l,Transmission,4,0.85,450.0,1,False,Genuine Drive Chain 428-108l motorcycle part.
+111,23801-KCC-900,Drive Sprocket 14T,Drive Sprocket 14t,Transmission,4,0.95,120.0,1,False,Genuine Drive Sprocket 14t motorcycle part.
+112,41201-KCC-900,Final Driven Sprocket 44T,Final Driven Sprocket 44t,Transmission,4,0.95,680.0,1,False,Genuine Final Driven Sprocket 44t motorcycle part.
+113,90128-KCC-900,Sprocket Fix Bolt,Sprocket Fix Bolt,Transmission,4,0.95,25.0,4,False,Genuine Sprocket Fix Bolt motorcycle part.
+114,22201-KCC-900S,Clutch Plate Kit,Clutch Plate Kit,Transmission,4,0.9,550.0,1,True,Genuine Clutch Plate Kit motorcycle part.
+115,22201-KCC-900,Clutch Friction Plate A,Clutch Friction Plate a,Transmission,4,0.9,110.0,4,False,Genuine Clutch Friction Plate a motorcycle part.
+116,22311-KCC-900,Clutch Steel Plate,Clutch Steel Plate,Transmission,4,0.9,75.0,3,False,Genuine Clutch Steel Plate motorcycle part.
+117,22351-KCC-900,Clutch Pressure Plate,Clutch Pressure Plate,Transmission,4,0.9,95.0,1,False,Genuine Clutch Pressure Plate motorcycle part.
+118,22120-KCC-900,Clutch Center,Clutch Center,Transmission,4,0.9,160.0,1,False,Genuine Clutch Center motorcycle part.
+119,22121-KCC-900,Clutch Hub,Clutch Hub,Transmission,4,0.9,180.0,1,False,Genuine Clutch Hub motorcycle part.
+120,06430-KCC-900,Brake Shoe Kit,Brake Shoe Kit,Braking,5,0.95,220.0,1,True,Genuine Brake Shoe Kit motorcycle part.
+121,43125-KCC-900,Brake Shoe Set,Brake Shoe Set,Braking,5,0.95,180.0,1,False,Genuine Brake Shoe Set motorcycle part.
+122,45133-KCC-900,Brake Shoe Spring,Brake Shoe Spring,Braking,5,0.95,15.0,2,False,Genuine Brake Shoe Spring motorcycle part.
+123,51490-KCC-900,Front Fork Seal Kit,Front Fork Seal Kit,Suspension,6,0.95,190.0,1,True,Genuine Front Fork Seal Kit motorcycle part.
+124,51490-KFT-900,Fork Oil Seal,Fork Oil Seal,Chassis,9,0.5,90.0,2,False,Genuine Fork Oil Seal motorcycle part.
+125,51490-KFT-901,Fork Dust Seal,Fork Dust Seal,Chassis,9,0.5,70.0,2,False,Genuine Fork Dust Seal motorcycle part.
+126,98056-57718,Plug Spark (NGK CPR7EA-9),Spark Plug (ngk Cpr7ea-9),Chassis,9,0.5,105.0,1,False,Genuine Spark Plug (ngk Cpr7ea-9) motorcycle part.
+127,17211-KCC-900,Element Air Cleaner,Element Air Cleaner,Chassis,9,0.5,140.0,1,False,Genuine Element Air Cleaner motorcycle part.
+128,16100-KCC-900,Carburetor Assembly,Carburetor Assembly,Fuel System,2,0.95,2850.0,1,False,Genuine Carburetor Assembly motorcycle part.
+129,45251-KSP-900,Front Brake Disc,Front Brake Disc,Chassis,9,0.5,950.0,1,False,Genuine Front Brake Disc motorcycle part.
+130,52400-KCC-900,Cushion Rear Assembly (Shock Absorber),Cushion Rear Assembly (shock Absorber),Suspension,6,0.95,1250.0,2,False,Genuine Cushion Rear Assembly (shock Absorber) motorcycle part.
+131,31500-KCC-900,MF Battery 12V 3Ah,Mf Battery 12v 3ah,Electrical,3,0.95,1150.0,1,False,Genuine Mf Battery 12v 3ah motorcycle part.
+132,18391-KCC-900,Gasket Muffler Joint,Gasket Muffler Joint,Exhaust,10,0.95,35.0,1,False,Genuine Gasket Muffler Joint motorcycle part.
+133,18300-KCC-900,Muffler Assembly Ex,Muffler Assembly Ex,Exhaust,10,0.95,3450.0,1,False,Genuine Muffler Assembly Ex motorcycle part.
+134,32100-KCC-900,Wire Harness Complete,Wire Harness Complete,Electrical,3,0.95,1250.0,1,False,Genuine Wire Harness Complete motorcycle part.
+135,35010-KCC-900,Switch Key Set (Lock Assy),Switch Key Set (lock Assembly),Electrical,3,0.85,550.0,1,False,Genuine Switch Key Set (lock Assembly) motorcycle part.
+136,42711-KCC-900,Rear Tyre 3.00-18 (Tube Type),Rear Tyre 3.00-18 (tube Type),Wheels & Tyres,7,0.95,1650.0,1,False,Genuine Rear Tyre 3.00-18 (tube Type) motorcycle part.
+137,44711-KCC-900,Front Tyre 2.75-18,Front Tyre 2.75-18,Wheels & Tyres,7,0.95,1450.0,1,False,Genuine Front Tyre 2.75-18 motorcycle part.
+138,83500-KCC-900,Side Cover Left Hand,Side Cover Left Hand,Body Parts,8,0.9,420.0,1,False,Genuine Side Cover Left Hand motorcycle part.
+139,83600-KCC-900,Side Cover Right Hand,Side Cover Right Hand,Body Parts,8,0.9,420.0,1,False,Genuine Side Cover Right Hand motorcycle part.
+140,50100-KCC-900,Frame Body Complete,Frame Body Complete,Chassis,9,0.95,8500.0,1,False,Genuine Frame Body Complete motorcycle part.
+141,52110-KCC-900,Swingarm Complete Rear,Swingarm Complete Rear,Chassis,9,0.95,1100.0,1,False,Genuine Swingarm Complete Rear motorcycle part.
+142,50500-KCC-900,Main Stand Complete,Main Stand Complete,Chassis,9,0.9,350.0,1,False,Genuine Main Stand Complete motorcycle part.

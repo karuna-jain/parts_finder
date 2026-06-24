@@ -1,0 +1,87 @@
+id,part_id,kit_number,name
+1,1,20K1010S,Chain Sprocket Kit
+2,2,20K1110S,Chain Sprocket Kit (hf Dwn / Hf Dlx)
+3,3,20K1120S,Chain Sprocket Kit (hf-dawn New)
+4,4,20K710S,Chain Sprocket Kit (sup. Splendor)
+5,5,20K810S,Chain Sprocket Kit-
+6,6,20K910S,Chain Sprocket Kit (achiever)
+7,8,21K180S,Cylinder Std Kit
+8,9,21K200S,Cylinder Kit (glamour)
+9,10,21K220S,Cylinder Kit (passion Pro)
+10,11,21K260S,Cylinder Kit (achiever New)
+11,12,21K280S,Cylinder Kit (hunk New)
+12,13,22K130LS,Cam.chain Kit
+13,14,22K150S,Cam Chain Kit (super Splendor)
+14,15,22K170S,Cam.chain Kit
+15,16,22K190S,Cam Chain Kit (karizma Zmr)
+16,17,23K240LS,Con Rod Kit (splendor)
+17,18,24K150LS,Valve Kit
+18,19,24K160S,Valve Kit (super Splendor)
+19,20,24K170S,Valve Kit
+20,21,24K180S,Valve Kit (karizma)
+21,22,24K190S,Valve Kit (pleasure)
+22,23,24K200S,Valve Kit (achiever New)
+23,24,25K160S,Ball Races Kit
+24,25,25K170S,Ball Races Kit (achr/glmr)
+25,26,25K180S,Ball Race Kit (pleasure)
+26,27,26K170LS,Oil Seal Kit
+27,33,26K180S,Oil Seal Kit (super Splendor)
+28,37,26K210S,Oil Seal Kit (hf Dlx / Spl Nxg Self Star
+29,38,26K220S,Oil Seal Kit (passion Pro)
+30,39,26K230S,Oil Seal Kit (pleasure)
+31,40,26K240S,Oil Seal Kit (karizma Zmr)
+32,42,27K181S,Cylinder Head O-ring Kit
+33,43,27K182S,Stator Plate O-ring Kit
+34,44,28K200S,Gasket Kit (super Splendor - Kick)
+35,45,28K210S,Gasket Kit (super Splendor - Self)
+36,46,28K230S,Gasket Kit
+37,47,28K240S,Gasket Kit (hf Dwn /hf Dlx)
+38,48,28K250S,Gasket Kit
+39,49,28K270S,Gasket Kit (spl+ Cw)
+40,50,28K280S,Gasket Kit (splendor+ New)
+41,51,28K290S,Gasket Kit (hf-dawn New)
+42,52,28K300S,Gasket Kit (achiever New)
+43,53,28K310S,Gasket Kit (karizma Zmr)
+44,54,29K210S,Speedometer Drive Kit
+45,55,30K410S,Chain Cover Kit
+46,56,32K210S,Nipple & Spoke Kit Rear.
+47,57,32K310S,Nipple & Spoke Kit Front.
+48,58,33K140S,Piston Ring Kit Std (y2k)
+49,59,33K141S,Piston Ring Kit I-over Size (y2k)
+50,60,33K142S,Piston Ring Kit Ii-over Size (y2k)
+51,61,33K143S,Piston Ring Kit(iii-over Size)
+52,62,33K150S,Piston Ring Kit(std)
+53,63,33K151S,Piston Ring Kit(i-over Size)
+54,64,33K152S,Piston Ring Kit(ii-over Size)
+55,65,33K153S,Piston Ring Kit(iii-over Size)
+56,66,33K160S,Piston Ring Kit(std)
+57,67,33K161S,Piston Ring Kit(i-over Size)
+58,68,33K162S,Piston Ring Kit(ii-over Size)
+59,69,35K010S,Step R Kit
+60,70,35K020S,Step R Kit
+61,71,35K110S,Step L Kit
+62,72,35K120S,Step L Kit
+63,73,36K010S,Disc Clutch Friction Kit - Karizma
+64,75,36K020S,Disc Clutch Friction Kit - Sup. Spl / Gl
+65,76,36K030S,Disc Clutch Friction Kit - Achiever
+66,77,37K030S,Side Stand Kit (pleasure)
+67,78,37K040S,Step Sari Kit (pleasure)
+68,79,38K040S,Glove Box Kit
+69,80,38K050S,Glove Box Kit
+70,81,38K070S,Step Sari Kit
+71,82,SPLENDOR,- Self)
+72,84,CYLINDER,Std Kit
+73,85,ELEMENT,Air Cleaner Kit
+74,86,PROTECTOR,Muffler Mounting
+75,87,GLAMOUR,I3s Ibs
+76,88,FRICTION,Kit - Karizma
+77,89,SPROCKET,Kit
+78,92,PILLION,L Step
+79,93,CUSHION,Bush
+80,96,PASSION,Pro)
+81,99,BEARING,Kit
+82,102,BEADING,Assembly
+83,103,12101-KSP-910A,Cylinder Piston Kit
+84,114,22201-KCC-900S,Clutch Plate Kit
+85,120,06430-KCC-900,Brake Shoe Kit
+86,123,51490-KCC-900,Front Fork Seal Kit
