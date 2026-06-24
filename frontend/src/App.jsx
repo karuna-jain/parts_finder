@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import localCatalog from './catalog.json';
 
-const API_BASE_URL = 'http://localhost:8082/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : 'http://localhost:8082/api';
 
 export default function App() {
   // Navigation States
