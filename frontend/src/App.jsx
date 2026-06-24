@@ -329,40 +329,56 @@ export default function App() {
     return [...matchesParts, ...matchesModels];
   }, [commandQuery, parts, models]);
 
-  // Simulated AI Engine
-  const handleSendChat = () => {
+  // RAG AI Chat Assistant Connection
+  const handleSendChat = async () => {
     if (!chatInput.trim()) return;
     const userText = chatInput.trim();
     setChatMessages(prev => [...prev, { sender: 'user', text: userText }]);
     setChatInput('');
 
-    setTimeout(() => {
+    // Add a temporary loading message for the AI response
+    const loadingMessageId = Date.now();
+    setChatMessages(prev => [...prev, { id: loadingMessageId, sender: 'ai', text: 'Analyzing manual and database...' }]);
+
+    try {
+      const response = await fetch(`${API_BASE_URL}/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: userText })
+      });
+      if (!response.ok) throw new Error('API returned an error');
+      const data = await response.json();
+      
+      // Update the loading message with the real answer and items
+      setChatMessages(prev => prev.map(msg => 
+        msg.id === loadingMessageId 
+          ? { sender: 'ai', text: data.reply, items: data.items || [] }
+          : msg
+      ));
+    } catch (err) {
+      console.warn('RAG backend chat offline, falling back to local dataset search:', err);
+      
       const q = userText.toLowerCase();
-      let aiText = "I parsed your query but couldn't locate specific parts. Try mentioning models like 'Splendor' or part numbers like '31917-AAC-H00'.";
+      let aiText = "[Offline Fallback] I parsed your query but couldn't locate specific parts in the local manual. Try querying 'Splendor clutch plate' or spark plug '31917-AAC-H00'.";
       let matchedItems = [];
 
       if (q.includes('clutch') && q.includes('splendor')) {
         matchedItems = parts.filter(p => p.category === 'Clutch' && p.normalizedName.toLowerCase().includes('clutch'));
-        aiText = `I found ${matchedItems.length} clutch parts compatible with Hero Splendor:`;
-      } else if (q.includes('spark plug') || q.includes('bikes use this spark plug') || q.includes('31917-aac-h00')) {
+        aiText = `[Offline Fallback] I found ${matchedItems.length} clutch parts compatible with Hero Splendor:`;
+      } else if (q.includes('spark plug') || q.includes('31917-aac-h00')) {
         const plug = parts.find(p => p.partNumber === '31917-AAC-H00');
         if (plug) {
           matchedItems = [plug];
-          aiText = `Spark plug **31917-AAC-H00** is used in several commuter models, including Splendor Plus, HF Deluxe, and Passion Pro. Details:`;
+          aiText = `[Offline Fallback] Spark plug **31917-AAC-H00** is used in several commuter models, including Splendor Plus. Details:`;
         }
-      } else if (q.includes('alternative') || q.includes('cheaper')) {
-        matchedItems = parts.filter(p => p.alternatives !== null).slice(0, 3);
-        aiText = `Here are parts in our intelligence engine with cheaper cross-compatible options listed:`;
-      } else if (q.includes('engine') && q.includes('passion')) {
-        matchedItems = parts.filter(p => p.category === 'Engine');
-        aiText = `Here are the active engine components currently in the repository catalog:`;
-      } else if (q.includes('cylinder head')) {
-        matchedItems = parts.filter(p => p.subSystem === 'Cylinder Head');
-        aiText = `Found the following components cataloged under the 'Cylinder Head' subsystem:`;
       }
-
-      setChatMessages(prev => [...prev, { sender: 'ai', text: aiText, items: matchedItems }]);
-    }, 800);
+      
+      setChatMessages(prev => prev.map(msg => 
+        msg.id === loadingMessageId 
+          ? { sender: 'ai', text: aiText, items: matchedItems }
+          : msg
+      ));
+    }
   };
 
   // Simulated OCR Scanner
